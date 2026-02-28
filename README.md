@@ -56,7 +56,8 @@ The SkyNova models are available on the Hugging Face Hub.
 ---
 Please check out our Model for all public checkpoints, and check demo section.
 ```bash
-bash demo.sh
+bash ./SkyNova_demo.sh
+bash ./SkyNova_stop.sh
 ```
 ---
 ## Dataset
