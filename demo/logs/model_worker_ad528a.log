@@ -1,0 +1,80 @@
+2025-12-24 14:04:38 | INFO | model_worker | args: Namespace(host='0.0.0.0', port=40001, worker_address='http://127.0.0.1:40001', controller_address='http://127.0.0.1:40000', model_path='/root/autodl-tmp/EarthDial/checkpoints/EarthDial_4B_Methane_UHI', model_name=None, device='cuda', limit_model_concurrency=5, stream_interval=1, load_8bit=False)
+2025-12-24 14:04:38 | INFO | model_worker | Loading the model EarthDial_4B_Methane_UHI on worker ad528a ...
+2025-12-24 14:04:38 | WARNING | transformers.tokenization_utils_base | Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+2025-12-24 14:04:38 | WARNING | transformers.tokenization_utils_base | Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+2025-12-24 14:04:41 | INFO | stdout | FlashAttention is not installed.
+2025-12-24 14:04:41 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2025-12-24 14:04:41 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2025-12-24 14:04:41 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2025-12-24 14:04:41 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2025-12-24 14:04:41 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2025-12-24 14:04:41 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2025-12-24 14:04:41 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2025-12-24 14:04:41 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2025-12-24 14:04:41 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2025-12-24 14:04:41 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2025-12-24 14:04:41 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2025-12-24 14:04:41 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2025-12-24 14:04:41 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2025-12-24 14:04:41 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2025-12-24 14:04:41 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2025-12-24 14:04:41 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2025-12-24 14:04:41 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2025-12-24 14:04:41 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2025-12-24 14:04:41 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2025-12-24 14:04:41 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2025-12-24 14:04:41 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2025-12-24 14:04:41 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2025-12-24 14:04:41 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2025-12-24 14:04:41 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2025-12-24 14:04:41 | ERROR | stderr | Loading checkpoint shards:   0%|                                                                                                                                                                         | 0/2 [00:00<?, ?it/s]
+2025-12-24 14:04:42 | ERROR | stderr | Loading checkpoint shards:  50%|████████████████████████████████████████████████████████████████████████████████▌                                                                                | 1/2 [00:00<00:00,  1.30it/s]
+2025-12-24 14:04:42 | ERROR | stderr | Loading checkpoint shards: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2/2 [00:01<00:00,  1.64it/s]
+2025-12-24 14:04:42 | ERROR | stderr | Loading checkpoint shards: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2/2 [00:01<00:00,  1.58it/s]
+2025-12-24 14:04:42 | ERROR | stderr | 
+2025-12-24 14:04:44 | INFO | model_worker | Register to controller
+2025-12-24 14:04:44 | ERROR | stderr | INFO:     Started server process [24913]
+2025-12-24 14:04:44 | ERROR | stderr | INFO:     Waiting for application startup.
+2025-12-24 14:04:44 | ERROR | stderr | INFO:     Application startup complete.
+2025-12-24 14:04:44 | ERROR | stderr | INFO:     Uvicorn running on http://0.0.0.0:40001 (Press CTRL+C to quit)
+2025-12-24 14:04:59 | INFO | model_worker | Send heart beat. Models: ['EarthDial_4B_Methane_UHI']. Semaphore: None. global_counter: 0
+2025-12-24 14:05:14 | INFO | model_worker | Send heart beat. Models: ['EarthDial_4B_Methane_UHI']. Semaphore: None. global_counter: 0
+2025-12-24 14:05:29 | INFO | model_worker | Send heart beat. Models: ['EarthDial_4B_Methane_UHI']. Semaphore: None. global_counter: 0
+2025-12-24 14:05:44 | INFO | model_worker | Send heart beat. Models: ['EarthDial_4B_Methane_UHI']. Semaphore: None. global_counter: 0
+2025-12-24 14:05:59 | INFO | model_worker | Send heart beat. Models: ['EarthDial_4B_Methane_UHI']. Semaphore: None. global_counter: 0
+2025-12-24 14:06:14 | INFO | model_worker | Send heart beat. Models: ['EarthDial_4B_Methane_UHI']. Semaphore: None. global_counter: 0
+2025-12-24 14:06:29 | INFO | model_worker | Send heart beat. Models: ['EarthDial_4B_Methane_UHI']. Semaphore: None. global_counter: 0
+2025-12-24 14:06:44 | INFO | model_worker | Send heart beat. Models: ['EarthDial_4B_Methane_UHI']. Semaphore: None. global_counter: 0
+2025-12-24 14:06:59 | INFO | model_worker | Send heart beat. Models: ['EarthDial_4B_Methane_UHI']. Semaphore: None. global_counter: 0
+2025-12-24 14:07:14 | INFO | model_worker | Send heart beat. Models: ['EarthDial_4B_Methane_UHI']. Semaphore: None. global_counter: 0
+2025-12-24 14:07:29 | INFO | model_worker | Send heart beat. Models: ['EarthDial_4B_Methane_UHI']. Semaphore: None. global_counter: 0
+2025-12-24 14:07:44 | INFO | model_worker | Send heart beat. Models: ['EarthDial_4B_Methane_UHI']. Semaphore: None. global_counter: 0
+2025-12-24 14:07:59 | INFO | model_worker | Send heart beat. Models: ['EarthDial_4B_Methane_UHI']. Semaphore: None. global_counter: 0
+2025-12-24 14:08:14 | INFO | model_worker | Send heart beat. Models: ['EarthDial_4B_Methane_UHI']. Semaphore: None. global_counter: 0
+2025-12-24 14:08:29 | INFO | model_worker | Send heart beat. Models: ['EarthDial_4B_Methane_UHI']. Semaphore: None. global_counter: 0
+2025-12-24 14:08:44 | INFO | model_worker | Send heart beat. Models: ['EarthDial_4B_Methane_UHI']. Semaphore: None. global_counter: 0
+2025-12-24 14:08:59 | INFO | model_worker | Send heart beat. Models: ['EarthDial_4B_Methane_UHI']. Semaphore: None. global_counter: 0
+2025-12-24 14:09:14 | INFO | model_worker | Send heart beat. Models: ['EarthDial_4B_Methane_UHI']. Semaphore: None. global_counter: 0
+2025-12-24 14:09:29 | INFO | model_worker | Send heart beat. Models: ['EarthDial_4B_Methane_UHI']. Semaphore: None. global_counter: 0
+2025-12-24 14:09:44 | INFO | model_worker | Send heart beat. Models: ['EarthDial_4B_Methane_UHI']. Semaphore: None. global_counter: 0
+2025-12-24 14:09:59 | INFO | model_worker | Send heart beat. Models: ['EarthDial_4B_Methane_UHI']. Semaphore: None. global_counter: 0
+2025-12-24 14:10:14 | INFO | model_worker | Send heart beat. Models: ['EarthDial_4B_Methane_UHI']. Semaphore: None. global_counter: 0
+2025-12-24 14:10:29 | INFO | model_worker | Send heart beat. Models: ['EarthDial_4B_Methane_UHI']. Semaphore: None. global_counter: 0
+2025-12-24 14:10:44 | INFO | model_worker | Send heart beat. Models: ['EarthDial_4B_Methane_UHI']. Semaphore: None. global_counter: 0
+2025-12-24 14:10:59 | INFO | model_worker | Send heart beat. Models: ['EarthDial_4B_Methane_UHI']. Semaphore: None. global_counter: 0
+2025-12-24 14:11:14 | INFO | model_worker | Send heart beat. Models: ['EarthDial_4B_Methane_UHI']. Semaphore: None. global_counter: 0
+2025-12-24 14:11:29 | INFO | model_worker | Send heart beat. Models: ['EarthDial_4B_Methane_UHI']. Semaphore: None. global_counter: 0
+2025-12-24 14:11:44 | INFO | model_worker | Send heart beat. Models: ['EarthDial_4B_Methane_UHI']. Semaphore: None. global_counter: 0
+2025-12-24 14:11:59 | INFO | model_worker | Send heart beat. Models: ['EarthDial_4B_Methane_UHI']. Semaphore: None. global_counter: 0
+2025-12-24 14:12:14 | INFO | model_worker | Send heart beat. Models: ['EarthDial_4B_Methane_UHI']. Semaphore: None. global_counter: 0
+2025-12-24 14:12:29 | INFO | model_worker | Send heart beat. Models: ['EarthDial_4B_Methane_UHI']. Semaphore: None. global_counter: 0
+2025-12-24 14:12:44 | INFO | model_worker | Send heart beat. Models: ['EarthDial_4B_Methane_UHI']. Semaphore: None. global_counter: 0
+2025-12-24 14:12:59 | INFO | model_worker | Send heart beat. Models: ['EarthDial_4B_Methane_UHI']. Semaphore: None. global_counter: 0
+2025-12-24 14:13:14 | INFO | model_worker | Send heart beat. Models: ['EarthDial_4B_Methane_UHI']. Semaphore: None. global_counter: 0
+2025-12-24 14:13:29 | INFO | model_worker | Send heart beat. Models: ['EarthDial_4B_Methane_UHI']. Semaphore: None. global_counter: 0
+2025-12-24 14:13:44 | INFO | model_worker | Send heart beat. Models: ['EarthDial_4B_Methane_UHI']. Semaphore: None. global_counter: 0
+2025-12-24 14:13:59 | INFO | model_worker | Send heart beat. Models: ['EarthDial_4B_Methane_UHI']. Semaphore: None. global_counter: 0
+2025-12-24 14:14:11 | ERROR | stderr | INFO:     Shutting down
+2025-12-24 14:14:11 | ERROR | stderr | INFO:     Waiting for application shutdown.
+2025-12-24 14:14:11 | ERROR | stderr | INFO:     Application shutdown complete.
+2025-12-24 14:14:11 | ERROR | stderr | INFO:     Finished server process [24913]

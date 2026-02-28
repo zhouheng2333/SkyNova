@@ -1,0 +1,91 @@
+2025-12-24 14:23:07 | INFO | model_worker | args: Namespace(host='0.0.0.0', port=40001, worker_address='http://127.0.0.1:40001', controller_address='http://127.0.0.1:40000', model_path='/root/autodl-tmp/EarthDial/checkpoints/EarthDial_4B_Methane_UHI', model_name=None, device='cuda', limit_model_concurrency=5, stream_interval=1, load_8bit=False)
+2025-12-24 14:23:07 | INFO | model_worker | Loading the model EarthDial_4B_Methane_UHI on worker ae3bf2 ...
+2025-12-24 14:23:07 | WARNING | transformers.tokenization_utils_base | Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+2025-12-24 14:23:07 | WARNING | transformers.tokenization_utils_base | Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+2025-12-24 14:23:09 | INFO | stdout | FlashAttention is not installed.
+2025-12-24 14:23:09 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2025-12-24 14:23:09 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2025-12-24 14:23:09 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2025-12-24 14:23:09 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2025-12-24 14:23:09 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2025-12-24 14:23:09 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2025-12-24 14:23:09 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2025-12-24 14:23:09 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2025-12-24 14:23:09 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2025-12-24 14:23:09 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2025-12-24 14:23:09 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2025-12-24 14:23:09 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2025-12-24 14:23:09 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2025-12-24 14:23:09 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2025-12-24 14:23:09 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2025-12-24 14:23:09 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2025-12-24 14:23:09 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2025-12-24 14:23:09 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2025-12-24 14:23:09 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2025-12-24 14:23:09 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2025-12-24 14:23:09 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2025-12-24 14:23:09 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2025-12-24 14:23:09 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2025-12-24 14:23:09 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2025-12-24 14:23:09 | ERROR | stderr | Loading checkpoint shards:   0%|                                                                       | 0/2 [00:00<?, ?it/s]
+2025-12-24 14:23:10 | ERROR | stderr | Loading checkpoint shards:  50%|███████████████████████████████▌                               | 1/2 [00:00<00:00,  1.20it/s]
+2025-12-24 14:23:11 | ERROR | stderr | Loading checkpoint shards: 100%|███████████████████████████████████████████████████████████████| 2/2 [00:01<00:00,  1.52it/s]
+2025-12-24 14:23:11 | ERROR | stderr | Loading checkpoint shards: 100%|███████████████████████████████████████████████████████████████| 2/2 [00:01<00:00,  1.46it/s]
+2025-12-24 14:23:11 | ERROR | stderr | 
+2025-12-24 14:23:12 | INFO | model_worker | Register to controller
+2025-12-24 14:23:12 | ERROR | stderr | INFO:     Started server process [26599]
+2025-12-24 14:23:12 | ERROR | stderr | INFO:     Waiting for application startup.
+2025-12-24 14:23:12 | ERROR | stderr | INFO:     Application startup complete.
+2025-12-24 14:23:12 | ERROR | stderr | ERROR:    [Errno 98] error while attempting to bind on address ('0.0.0.0', 40001): address already in use
+2025-12-24 14:23:12 | ERROR | stderr | INFO:     Waiting for application shutdown.
+2025-12-24 14:23:12 | ERROR | stderr | INFO:     Application shutdown complete.
+2025-12-24 14:23:27 | INFO | model_worker | Send heart beat. Models: ['EarthDial_4B_Methane_UHI']. Semaphore: None. global_counter: 0
+2025-12-24 14:23:42 | INFO | model_worker | Send heart beat. Models: ['EarthDial_4B_Methane_UHI']. Semaphore: None. global_counter: 0
+2025-12-24 14:23:57 | INFO | model_worker | Send heart beat. Models: ['EarthDial_4B_Methane_UHI']. Semaphore: None. global_counter: 0
+2025-12-24 14:24:12 | INFO | model_worker | Send heart beat. Models: ['EarthDial_4B_Methane_UHI']. Semaphore: None. global_counter: 0
+2025-12-24 14:24:27 | INFO | model_worker | Send heart beat. Models: ['EarthDial_4B_Methane_UHI']. Semaphore: None. global_counter: 0
+2025-12-24 14:24:42 | INFO | model_worker | Send heart beat. Models: ['EarthDial_4B_Methane_UHI']. Semaphore: None. global_counter: 0
+2025-12-24 14:24:57 | INFO | model_worker | Send heart beat. Models: ['EarthDial_4B_Methane_UHI']. Semaphore: None. global_counter: 0
+2025-12-24 14:25:12 | INFO | model_worker | Send heart beat. Models: ['EarthDial_4B_Methane_UHI']. Semaphore: None. global_counter: 0
+2025-12-24 14:25:27 | INFO | model_worker | Send heart beat. Models: ['EarthDial_4B_Methane_UHI']. Semaphore: None. global_counter: 0
+2025-12-24 14:25:42 | INFO | model_worker | Send heart beat. Models: ['EarthDial_4B_Methane_UHI']. Semaphore: None. global_counter: 0
+2025-12-24 14:25:57 | INFO | model_worker | Send heart beat. Models: ['EarthDial_4B_Methane_UHI']. Semaphore: None. global_counter: 0
+2025-12-24 14:26:12 | INFO | model_worker | Send heart beat. Models: ['EarthDial_4B_Methane_UHI']. Semaphore: None. global_counter: 0
+2025-12-24 14:26:28 | INFO | model_worker | Send heart beat. Models: ['EarthDial_4B_Methane_UHI']. Semaphore: None. global_counter: 0
+2025-12-24 14:26:43 | INFO | model_worker | Send heart beat. Models: ['EarthDial_4B_Methane_UHI']. Semaphore: None. global_counter: 0
+2025-12-24 14:26:58 | INFO | model_worker | Send heart beat. Models: ['EarthDial_4B_Methane_UHI']. Semaphore: None. global_counter: 0
+2025-12-24 14:27:13 | INFO | model_worker | Send heart beat. Models: ['EarthDial_4B_Methane_UHI']. Semaphore: None. global_counter: 0
+2025-12-24 14:27:28 | INFO | model_worker | Send heart beat. Models: ['EarthDial_4B_Methane_UHI']. Semaphore: None. global_counter: 0
+2025-12-24 14:27:43 | INFO | model_worker | Send heart beat. Models: ['EarthDial_4B_Methane_UHI']. Semaphore: None. global_counter: 0
+2025-12-24 14:27:58 | INFO | model_worker | Send heart beat. Models: ['EarthDial_4B_Methane_UHI']. Semaphore: None. global_counter: 0
+2025-12-24 14:28:13 | INFO | model_worker | Send heart beat. Models: ['EarthDial_4B_Methane_UHI']. Semaphore: None. global_counter: 0
+2025-12-24 14:28:28 | INFO | model_worker | Send heart beat. Models: ['EarthDial_4B_Methane_UHI']. Semaphore: None. global_counter: 0
+2025-12-24 14:28:43 | INFO | model_worker | Send heart beat. Models: ['EarthDial_4B_Methane_UHI']. Semaphore: None. global_counter: 0
+2025-12-24 14:28:58 | INFO | model_worker | Send heart beat. Models: ['EarthDial_4B_Methane_UHI']. Semaphore: None. global_counter: 0
+2025-12-24 14:29:13 | INFO | model_worker | Send heart beat. Models: ['EarthDial_4B_Methane_UHI']. Semaphore: None. global_counter: 0
+2025-12-24 14:29:28 | INFO | model_worker | Send heart beat. Models: ['EarthDial_4B_Methane_UHI']. Semaphore: None. global_counter: 0
+2025-12-24 14:29:43 | INFO | model_worker | Send heart beat. Models: ['EarthDial_4B_Methane_UHI']. Semaphore: None. global_counter: 0
+2025-12-24 14:29:58 | INFO | model_worker | Send heart beat. Models: ['EarthDial_4B_Methane_UHI']. Semaphore: None. global_counter: 0
+2025-12-24 14:30:13 | INFO | model_worker | Send heart beat. Models: ['EarthDial_4B_Methane_UHI']. Semaphore: None. global_counter: 0
+2025-12-24 14:30:28 | INFO | model_worker | Send heart beat. Models: ['EarthDial_4B_Methane_UHI']. Semaphore: None. global_counter: 0
+2025-12-24 14:30:43 | INFO | model_worker | Send heart beat. Models: ['EarthDial_4B_Methane_UHI']. Semaphore: None. global_counter: 0
+2025-12-24 14:30:58 | INFO | model_worker | Send heart beat. Models: ['EarthDial_4B_Methane_UHI']. Semaphore: None. global_counter: 0
+2025-12-24 14:31:13 | INFO | model_worker | Send heart beat. Models: ['EarthDial_4B_Methane_UHI']. Semaphore: None. global_counter: 0
+2025-12-24 14:31:28 | INFO | model_worker | Send heart beat. Models: ['EarthDial_4B_Methane_UHI']. Semaphore: None. global_counter: 0
+2025-12-24 14:31:43 | INFO | model_worker | Send heart beat. Models: ['EarthDial_4B_Methane_UHI']. Semaphore: None. global_counter: 0
+2025-12-24 14:31:58 | INFO | model_worker | Send heart beat. Models: ['EarthDial_4B_Methane_UHI']. Semaphore: None. global_counter: 0
+2025-12-24 14:32:13 | INFO | model_worker | Send heart beat. Models: ['EarthDial_4B_Methane_UHI']. Semaphore: None. global_counter: 0
+2025-12-24 14:32:28 | INFO | model_worker | Send heart beat. Models: ['EarthDial_4B_Methane_UHI']. Semaphore: None. global_counter: 0
+2025-12-24 14:32:43 | INFO | model_worker | Send heart beat. Models: ['EarthDial_4B_Methane_UHI']. Semaphore: None. global_counter: 0
+2025-12-24 14:32:58 | INFO | model_worker | Send heart beat. Models: ['EarthDial_4B_Methane_UHI']. Semaphore: None. global_counter: 0
+2025-12-24 14:33:13 | INFO | model_worker | Send heart beat. Models: ['EarthDial_4B_Methane_UHI']. Semaphore: None. global_counter: 0
+2025-12-24 14:33:28 | INFO | model_worker | Send heart beat. Models: ['EarthDial_4B_Methane_UHI']. Semaphore: None. global_counter: 0
+2025-12-24 14:33:43 | INFO | model_worker | Send heart beat. Models: ['EarthDial_4B_Methane_UHI']. Semaphore: None. global_counter: 0
+2025-12-24 14:33:58 | INFO | model_worker | Send heart beat. Models: ['EarthDial_4B_Methane_UHI']. Semaphore: None. global_counter: 0
+2025-12-24 14:34:13 | INFO | model_worker | Send heart beat. Models: ['EarthDial_4B_Methane_UHI']. Semaphore: None. global_counter: 0
+2025-12-24 14:34:28 | INFO | model_worker | Send heart beat. Models: ['EarthDial_4B_Methane_UHI']. Semaphore: None. global_counter: 0
+2025-12-24 14:34:43 | INFO | model_worker | Send heart beat. Models: ['EarthDial_4B_Methane_UHI']. Semaphore: None. global_counter: 0
+2025-12-24 14:34:58 | INFO | model_worker | Send heart beat. Models: ['EarthDial_4B_Methane_UHI']. Semaphore: None. global_counter: 0
+2025-12-24 14:35:13 | INFO | model_worker | Send heart beat. Models: ['EarthDial_4B_Methane_UHI']. Semaphore: None. global_counter: 0
+2025-12-24 14:35:28 | INFO | model_worker | Send heart beat. Models: ['EarthDial_4B_Methane_UHI']. Semaphore: None. global_counter: 0
+2025-12-24 14:35:43 | INFO | model_worker | Send heart beat. Models: ['EarthDial_4B_Methane_UHI']. Semaphore: None. global_counter: 0

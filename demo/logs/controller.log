@@ -1,0 +1,1741 @@
+2026-01-19 19:31:18 | INFO | controller | args: Namespace(host='0.0.0.0', port=40000, dispatch_method='shortest_queue')
+2026-01-19 19:31:18 | INFO | controller | Init controller
+2026-01-19 19:31:18 | ERROR | stderr | INFO:     Started server process [1233]
+2026-01-19 19:31:18 | ERROR | stderr | INFO:     Waiting for application startup.
+2026-01-19 19:31:18 | ERROR | stderr | INFO:     Application startup complete.
+2026-01-19 19:31:18 | ERROR | stderr | INFO:     Uvicorn running on http://0.0.0.0:40000 (Press CTRL+C to quit)
+2026-01-19 19:31:29 | INFO | controller | Register a new worker: http://127.0.0.1:40001
+2026-01-19 19:31:29 | INFO | controller | Register done: http://127.0.0.1:40001, {'model_names': ['SkyNova_4B'], 'speed': 1, 'queue_length': 0}
+2026-01-19 19:31:29 | INFO | stdout | INFO:     127.0.0.1:51018 - "POST /register_worker HTTP/1.1" 200 OK
+2026-01-19 19:31:44 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:31:44 | INFO | stdout | INFO:     127.0.0.1:33144 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:31:59 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:31:59 | INFO | stdout | INFO:     127.0.0.1:59690 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:32:14 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:32:14 | INFO | stdout | INFO:     127.0.0.1:55436 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:32:29 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:32:29 | INFO | stdout | INFO:     127.0.0.1:46050 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:32:44 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:32:44 | INFO | stdout | INFO:     127.0.0.1:32990 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:32:59 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:32:59 | INFO | stdout | INFO:     127.0.0.1:59164 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:33:14 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:33:14 | INFO | stdout | INFO:     127.0.0.1:55432 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:33:29 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:33:29 | INFO | stdout | INFO:     127.0.0.1:39564 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:33:44 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:33:44 | INFO | stdout | INFO:     127.0.0.1:38072 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:33:59 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:33:59 | INFO | stdout | INFO:     127.0.0.1:54084 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:34:14 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:34:14 | INFO | stdout | INFO:     127.0.0.1:49028 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:34:29 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:34:29 | INFO | stdout | INFO:     127.0.0.1:49078 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:34:44 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:34:44 | INFO | stdout | INFO:     127.0.0.1:44866 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:34:59 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:34:59 | INFO | stdout | INFO:     127.0.0.1:41552 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:35:14 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:35:14 | INFO | stdout | INFO:     127.0.0.1:41244 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:35:25 | INFO | controller | Register a new worker: http://127.0.0.1:40001
+2026-01-19 19:35:25 | INFO | controller | Register done: http://127.0.0.1:40001, {'model_names': ['SkyNova_4B'], 'speed': 1, 'queue_length': 0}
+2026-01-19 19:35:25 | INFO | stdout | INFO:     127.0.0.1:34786 - "POST /refresh_all_workers HTTP/1.1" 200 OK
+2026-01-19 19:35:25 | INFO | stdout | INFO:     127.0.0.1:34798 - "POST /list_models HTTP/1.1" 200 OK
+2026-01-19 19:35:29 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:35:29 | INFO | stdout | INFO:     127.0.0.1:58746 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:35:44 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:35:44 | INFO | stdout | INFO:     127.0.0.1:36544 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:35:59 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:35:59 | INFO | stdout | INFO:     127.0.0.1:52096 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:36:14 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:36:14 | INFO | stdout | INFO:     127.0.0.1:42786 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:36:18 | INFO | controller | Register a new worker: http://127.0.0.1:40001
+2026-01-19 19:36:18 | INFO | controller | Register done: http://127.0.0.1:40001, {'model_names': ['SkyNova_4B'], 'speed': 1, 'queue_length': 0}
+2026-01-19 19:36:18 | INFO | stdout | INFO:     127.0.0.1:35946 - "POST /refresh_all_workers HTTP/1.1" 200 OK
+2026-01-19 19:36:18 | INFO | stdout | INFO:     127.0.0.1:35950 - "POST /list_models HTTP/1.1" 200 OK
+2026-01-19 19:36:29 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:36:29 | INFO | stdout | INFO:     127.0.0.1:60806 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:36:44 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:36:44 | INFO | stdout | INFO:     127.0.0.1:42982 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:36:59 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:36:59 | INFO | stdout | INFO:     127.0.0.1:48332 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:37:08 | INFO | controller | Register a new worker: http://127.0.0.1:40001
+2026-01-19 19:37:08 | INFO | controller | Register done: http://127.0.0.1:40001, {'model_names': ['SkyNova_4B'], 'speed': 1, 'queue_length': 0}
+2026-01-19 19:37:08 | INFO | stdout | INFO:     127.0.0.1:52162 - "POST /refresh_all_workers HTTP/1.1" 200 OK
+2026-01-19 19:37:08 | INFO | stdout | INFO:     127.0.0.1:52164 - "POST /list_models HTTP/1.1" 200 OK
+2026-01-19 19:37:08 | INFO | controller | Register a new worker: http://127.0.0.1:40001
+2026-01-19 19:37:08 | INFO | controller | Register done: http://127.0.0.1:40001, {'model_names': ['SkyNova_4B'], 'speed': 1, 'queue_length': 0}
+2026-01-19 19:37:08 | INFO | stdout | INFO:     127.0.0.1:52168 - "POST /refresh_all_workers HTTP/1.1" 200 OK
+2026-01-19 19:37:08 | INFO | stdout | INFO:     127.0.0.1:52180 - "POST /list_models HTTP/1.1" 200 OK
+2026-01-19 19:37:09 | INFO | controller | names: ['http://127.0.0.1:40001'], queue_lens: [0.0], ret: http://127.0.0.1:40001
+2026-01-19 19:37:09 | INFO | stdout | INFO:     127.0.0.1:52182 - "POST /get_worker_address HTTP/1.1" 200 OK
+2026-01-19 19:37:09 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:37:09 | INFO | stdout | INFO:     127.0.0.1:52192 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:37:10 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:37:10 | INFO | stdout | INFO:     127.0.0.1:52202 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:37:14 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:37:14 | INFO | stdout | INFO:     127.0.0.1:52208 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:37:29 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:37:29 | INFO | stdout | INFO:     127.0.0.1:54360 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:37:44 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:37:44 | INFO | stdout | INFO:     127.0.0.1:54494 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:37:59 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:37:59 | INFO | stdout | INFO:     127.0.0.1:52738 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:38:14 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:38:14 | INFO | stdout | INFO:     127.0.0.1:49626 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:38:29 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:38:29 | INFO | stdout | INFO:     127.0.0.1:45762 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:38:44 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:38:44 | INFO | stdout | INFO:     127.0.0.1:36458 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:39:00 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:39:00 | INFO | stdout | INFO:     127.0.0.1:39252 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:39:15 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:39:15 | INFO | stdout | INFO:     127.0.0.1:60422 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:39:30 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:39:30 | INFO | stdout | INFO:     127.0.0.1:34006 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:39:45 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:39:45 | INFO | stdout | INFO:     127.0.0.1:54932 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:40:00 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:40:00 | INFO | stdout | INFO:     127.0.0.1:56766 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:40:15 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:40:15 | INFO | stdout | INFO:     127.0.0.1:40104 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:40:30 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:40:30 | INFO | stdout | INFO:     127.0.0.1:37986 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:40:45 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:40:45 | INFO | stdout | INFO:     127.0.0.1:49426 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:41:00 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:41:00 | INFO | stdout | INFO:     127.0.0.1:60314 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:41:15 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:41:15 | INFO | stdout | INFO:     127.0.0.1:49050 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:41:30 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:41:30 | INFO | stdout | INFO:     127.0.0.1:42786 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:41:45 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:41:45 | INFO | stdout | INFO:     127.0.0.1:55114 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:42:00 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:42:00 | INFO | stdout | INFO:     127.0.0.1:47326 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:42:15 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:42:15 | INFO | stdout | INFO:     127.0.0.1:60274 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:42:30 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:42:30 | INFO | stdout | INFO:     127.0.0.1:60164 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:42:45 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:42:45 | INFO | stdout | INFO:     127.0.0.1:47408 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:43:00 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:43:00 | INFO | stdout | INFO:     127.0.0.1:53940 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:43:15 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:43:15 | INFO | stdout | INFO:     127.0.0.1:54248 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:43:30 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:43:30 | INFO | stdout | INFO:     127.0.0.1:48056 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:43:45 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:43:45 | INFO | stdout | INFO:     127.0.0.1:44498 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:44:00 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:44:00 | INFO | stdout | INFO:     127.0.0.1:60012 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:44:15 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:44:15 | INFO | stdout | INFO:     127.0.0.1:58630 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:44:30 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:44:30 | INFO | stdout | INFO:     127.0.0.1:45604 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:44:45 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:44:45 | INFO | stdout | INFO:     127.0.0.1:53654 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:45:00 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:45:00 | INFO | stdout | INFO:     127.0.0.1:46792 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:45:15 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:45:15 | INFO | stdout | INFO:     127.0.0.1:33494 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:45:30 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:45:30 | INFO | stdout | INFO:     127.0.0.1:40042 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:45:45 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:45:45 | INFO | stdout | INFO:     127.0.0.1:58560 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:46:00 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:46:00 | INFO | stdout | INFO:     127.0.0.1:56112 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:46:15 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:46:15 | INFO | stdout | INFO:     127.0.0.1:33912 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:46:30 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:46:30 | INFO | stdout | INFO:     127.0.0.1:51302 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:46:45 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:46:45 | INFO | stdout | INFO:     127.0.0.1:45354 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:47:00 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:47:00 | INFO | stdout | INFO:     127.0.0.1:48286 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:47:15 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:47:15 | INFO | stdout | INFO:     127.0.0.1:40884 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:47:30 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:47:30 | INFO | stdout | INFO:     127.0.0.1:41648 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:47:45 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:47:45 | INFO | stdout | INFO:     127.0.0.1:52718 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:48:00 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:48:00 | INFO | stdout | INFO:     127.0.0.1:47608 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:48:15 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:48:15 | INFO | stdout | INFO:     127.0.0.1:34540 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:48:30 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:48:30 | INFO | stdout | INFO:     127.0.0.1:45008 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:48:45 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:48:45 | INFO | stdout | INFO:     127.0.0.1:40578 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:49:00 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:49:00 | INFO | stdout | INFO:     127.0.0.1:39010 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:49:15 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:49:15 | INFO | stdout | INFO:     127.0.0.1:58918 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:49:30 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:49:30 | INFO | stdout | INFO:     127.0.0.1:59914 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:49:45 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:49:45 | INFO | stdout | INFO:     127.0.0.1:35378 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:50:00 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:50:00 | INFO | stdout | INFO:     127.0.0.1:53986 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:50:15 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:50:15 | INFO | stdout | INFO:     127.0.0.1:38604 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:50:30 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:50:30 | INFO | stdout | INFO:     127.0.0.1:60298 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:50:45 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:50:45 | INFO | stdout | INFO:     127.0.0.1:51488 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:50:59 | INFO | controller | Register a new worker: http://127.0.0.1:40001
+2026-01-19 19:50:59 | INFO | controller | Register done: http://127.0.0.1:40001, {'model_names': ['SkyNova_4B'], 'speed': 1, 'queue_length': 0}
+2026-01-19 19:50:59 | INFO | stdout | INFO:     127.0.0.1:44976 - "POST /refresh_all_workers HTTP/1.1" 200 OK
+2026-01-19 19:50:59 | INFO | stdout | INFO:     127.0.0.1:44980 - "POST /list_models HTTP/1.1" 200 OK
+2026-01-19 19:51:00 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:51:00 | INFO | stdout | INFO:     127.0.0.1:44992 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:51:16 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:51:16 | INFO | stdout | INFO:     127.0.0.1:36188 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:51:31 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:51:31 | INFO | stdout | INFO:     127.0.0.1:34206 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:51:46 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:51:46 | INFO | stdout | INFO:     127.0.0.1:58098 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:52:01 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:52:01 | INFO | stdout | INFO:     127.0.0.1:38656 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:52:16 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:52:16 | INFO | stdout | INFO:     127.0.0.1:57770 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:52:31 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:52:31 | INFO | stdout | INFO:     127.0.0.1:50642 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:52:46 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:52:46 | INFO | stdout | INFO:     127.0.0.1:42990 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:53:01 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:53:01 | INFO | stdout | INFO:     127.0.0.1:46364 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:53:16 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:53:16 | INFO | stdout | INFO:     127.0.0.1:49238 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:53:31 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:53:31 | INFO | stdout | INFO:     127.0.0.1:46314 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:53:46 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:53:46 | INFO | stdout | INFO:     127.0.0.1:41834 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:54:01 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:54:01 | INFO | stdout | INFO:     127.0.0.1:43234 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:54:16 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:54:16 | INFO | stdout | INFO:     127.0.0.1:44320 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:54:31 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:54:31 | INFO | stdout | INFO:     127.0.0.1:57030 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:54:46 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:54:46 | INFO | stdout | INFO:     127.0.0.1:48536 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:55:01 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:55:01 | INFO | stdout | INFO:     127.0.0.1:50342 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:55:16 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:55:16 | INFO | stdout | INFO:     127.0.0.1:48908 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:55:31 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:55:31 | INFO | stdout | INFO:     127.0.0.1:47280 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:55:46 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:55:46 | INFO | stdout | INFO:     127.0.0.1:57132 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:56:01 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:56:01 | INFO | stdout | INFO:     127.0.0.1:48918 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:56:16 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:56:16 | INFO | stdout | INFO:     127.0.0.1:54292 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:56:31 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:56:31 | INFO | stdout | INFO:     127.0.0.1:60372 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:56:46 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:56:46 | INFO | stdout | INFO:     127.0.0.1:58186 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:57:01 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:57:01 | INFO | stdout | INFO:     127.0.0.1:51068 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:57:16 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:57:16 | INFO | stdout | INFO:     127.0.0.1:53028 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:57:31 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:57:31 | INFO | stdout | INFO:     127.0.0.1:43858 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:57:46 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:57:46 | INFO | stdout | INFO:     127.0.0.1:34764 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:58:01 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:58:01 | INFO | stdout | INFO:     127.0.0.1:51554 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:58:16 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:58:16 | INFO | stdout | INFO:     127.0.0.1:40638 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:58:31 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:58:31 | INFO | stdout | INFO:     127.0.0.1:45408 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:58:46 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:58:46 | INFO | stdout | INFO:     127.0.0.1:41236 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:59:01 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:59:01 | INFO | stdout | INFO:     127.0.0.1:58302 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:59:16 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:59:16 | INFO | stdout | INFO:     127.0.0.1:35616 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:59:31 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:59:31 | INFO | stdout | INFO:     127.0.0.1:33712 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 19:59:46 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 19:59:46 | INFO | stdout | INFO:     127.0.0.1:52698 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:00:01 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:00:01 | INFO | stdout | INFO:     127.0.0.1:46770 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:00:16 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:00:16 | INFO | stdout | INFO:     127.0.0.1:50104 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:00:31 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:00:31 | INFO | stdout | INFO:     127.0.0.1:55232 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:00:46 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:00:46 | INFO | stdout | INFO:     127.0.0.1:45046 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:01:01 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:01:01 | INFO | stdout | INFO:     127.0.0.1:41444 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:01:16 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:01:16 | INFO | stdout | INFO:     127.0.0.1:45646 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:01:31 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:01:31 | INFO | stdout | INFO:     127.0.0.1:35682 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:01:46 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:01:46 | INFO | stdout | INFO:     127.0.0.1:45822 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:02:01 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:02:01 | INFO | stdout | INFO:     127.0.0.1:54662 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:02:16 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:02:16 | INFO | stdout | INFO:     127.0.0.1:53418 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:02:31 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:02:31 | INFO | stdout | INFO:     127.0.0.1:59908 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:02:46 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:02:46 | INFO | stdout | INFO:     127.0.0.1:55506 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:03:01 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:03:01 | INFO | stdout | INFO:     127.0.0.1:43698 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:03:16 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:03:16 | INFO | stdout | INFO:     127.0.0.1:33526 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:03:32 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:03:32 | INFO | stdout | INFO:     127.0.0.1:51228 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:03:47 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:03:47 | INFO | stdout | INFO:     127.0.0.1:36256 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:04:02 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:04:02 | INFO | stdout | INFO:     127.0.0.1:40954 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:04:17 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:04:17 | INFO | stdout | INFO:     127.0.0.1:43994 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:04:32 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:04:32 | INFO | stdout | INFO:     127.0.0.1:56606 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:04:47 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:04:47 | INFO | stdout | INFO:     127.0.0.1:57092 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:05:02 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:05:02 | INFO | stdout | INFO:     127.0.0.1:59652 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:05:17 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:05:17 | INFO | stdout | INFO:     127.0.0.1:59400 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:05:32 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:05:32 | INFO | stdout | INFO:     127.0.0.1:57622 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:05:47 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:05:47 | INFO | stdout | INFO:     127.0.0.1:48388 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:06:02 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:06:02 | INFO | stdout | INFO:     127.0.0.1:49454 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:06:17 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:06:17 | INFO | stdout | INFO:     127.0.0.1:59476 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:06:32 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:06:32 | INFO | stdout | INFO:     127.0.0.1:49564 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:06:47 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:06:47 | INFO | stdout | INFO:     127.0.0.1:44256 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:07:02 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:07:02 | INFO | stdout | INFO:     127.0.0.1:54898 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:07:17 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:07:17 | INFO | stdout | INFO:     127.0.0.1:35100 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:07:32 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:07:32 | INFO | stdout | INFO:     127.0.0.1:46134 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:07:47 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:07:47 | INFO | stdout | INFO:     127.0.0.1:59440 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:08:02 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:08:02 | INFO | stdout | INFO:     127.0.0.1:59976 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:08:17 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:08:17 | INFO | stdout | INFO:     127.0.0.1:39908 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:08:32 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:08:32 | INFO | stdout | INFO:     127.0.0.1:51336 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:08:47 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:08:47 | INFO | stdout | INFO:     127.0.0.1:59252 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:09:02 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:09:02 | INFO | stdout | INFO:     127.0.0.1:40068 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:09:17 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:09:17 | INFO | stdout | INFO:     127.0.0.1:47428 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:09:32 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:09:32 | INFO | stdout | INFO:     127.0.0.1:60816 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:09:47 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:09:47 | INFO | stdout | INFO:     127.0.0.1:43014 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:10:02 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:10:02 | INFO | stdout | INFO:     127.0.0.1:32946 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:10:17 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:10:17 | INFO | stdout | INFO:     127.0.0.1:33914 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:10:32 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:10:32 | INFO | stdout | INFO:     127.0.0.1:37882 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:10:47 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:10:47 | INFO | stdout | INFO:     127.0.0.1:43288 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:11:02 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:11:02 | INFO | stdout | INFO:     127.0.0.1:37344 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:11:17 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:11:17 | INFO | stdout | INFO:     127.0.0.1:59272 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:11:32 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:11:32 | INFO | stdout | INFO:     127.0.0.1:36254 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:11:47 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:11:47 | INFO | stdout | INFO:     127.0.0.1:45626 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:12:02 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:12:02 | INFO | stdout | INFO:     127.0.0.1:43882 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:12:17 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:12:17 | INFO | stdout | INFO:     127.0.0.1:60958 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:12:32 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:12:32 | INFO | stdout | INFO:     127.0.0.1:40592 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:12:47 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:12:47 | INFO | stdout | INFO:     127.0.0.1:36774 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:13:02 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:13:02 | INFO | stdout | INFO:     127.0.0.1:44014 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:13:17 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:13:17 | INFO | stdout | INFO:     127.0.0.1:58204 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:13:32 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:13:32 | INFO | stdout | INFO:     127.0.0.1:57122 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:13:47 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:13:47 | INFO | stdout | INFO:     127.0.0.1:59016 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:14:02 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:14:02 | INFO | stdout | INFO:     127.0.0.1:56786 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:14:17 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:14:17 | INFO | stdout | INFO:     127.0.0.1:36104 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:14:32 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:14:32 | INFO | stdout | INFO:     127.0.0.1:50504 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:14:47 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:14:47 | INFO | stdout | INFO:     127.0.0.1:41448 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:15:02 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:15:02 | INFO | stdout | INFO:     127.0.0.1:47512 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:15:17 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:15:17 | INFO | stdout | INFO:     127.0.0.1:43910 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:15:32 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:15:32 | INFO | stdout | INFO:     127.0.0.1:45048 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:15:48 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:15:48 | INFO | stdout | INFO:     127.0.0.1:58010 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:16:03 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:16:03 | INFO | stdout | INFO:     127.0.0.1:35908 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:16:18 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:16:18 | INFO | stdout | INFO:     127.0.0.1:51880 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:16:33 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:16:33 | INFO | stdout | INFO:     127.0.0.1:47812 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:16:48 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:16:48 | INFO | stdout | INFO:     127.0.0.1:37582 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:17:03 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:17:03 | INFO | stdout | INFO:     127.0.0.1:53958 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:17:18 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:17:18 | INFO | stdout | INFO:     127.0.0.1:58454 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:17:33 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:17:33 | INFO | stdout | INFO:     127.0.0.1:32922 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:17:48 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:17:48 | INFO | stdout | INFO:     127.0.0.1:38316 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:18:03 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:18:03 | INFO | stdout | INFO:     127.0.0.1:41556 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:18:18 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:18:18 | INFO | stdout | INFO:     127.0.0.1:51758 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:18:33 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:18:33 | INFO | stdout | INFO:     127.0.0.1:38202 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:18:48 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:18:48 | INFO | stdout | INFO:     127.0.0.1:33470 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:19:03 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:19:03 | INFO | stdout | INFO:     127.0.0.1:57118 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:19:18 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:19:18 | INFO | stdout | INFO:     127.0.0.1:50422 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:19:33 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:19:33 | INFO | stdout | INFO:     127.0.0.1:54380 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:19:48 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:19:48 | INFO | stdout | INFO:     127.0.0.1:52536 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:20:03 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:20:03 | INFO | stdout | INFO:     127.0.0.1:42988 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:20:18 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:20:18 | INFO | stdout | INFO:     127.0.0.1:54186 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:20:33 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:20:33 | INFO | stdout | INFO:     127.0.0.1:45924 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:20:48 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:20:48 | INFO | stdout | INFO:     127.0.0.1:54794 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:21:03 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:21:03 | INFO | stdout | INFO:     127.0.0.1:56206 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:21:18 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:21:18 | INFO | stdout | INFO:     127.0.0.1:43538 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:21:33 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:21:33 | INFO | stdout | INFO:     127.0.0.1:60862 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:21:48 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:21:48 | INFO | stdout | INFO:     127.0.0.1:40994 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:22:03 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:22:03 | INFO | stdout | INFO:     127.0.0.1:58198 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:22:18 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:22:18 | INFO | stdout | INFO:     127.0.0.1:47614 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:22:33 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:22:33 | INFO | stdout | INFO:     127.0.0.1:50206 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:22:48 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:22:48 | INFO | stdout | INFO:     127.0.0.1:44180 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:23:03 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:23:03 | INFO | stdout | INFO:     127.0.0.1:59102 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:23:18 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:23:18 | INFO | stdout | INFO:     127.0.0.1:48078 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:23:33 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:23:33 | INFO | stdout | INFO:     127.0.0.1:43414 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:23:48 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:23:48 | INFO | stdout | INFO:     127.0.0.1:46700 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:24:03 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:24:03 | INFO | stdout | INFO:     127.0.0.1:41272 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:24:18 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:24:18 | INFO | stdout | INFO:     127.0.0.1:44460 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:24:33 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:24:33 | INFO | stdout | INFO:     127.0.0.1:39460 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:24:48 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:24:48 | INFO | stdout | INFO:     127.0.0.1:37750 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:25:03 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:25:03 | INFO | stdout | INFO:     127.0.0.1:41368 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:25:18 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:25:18 | INFO | stdout | INFO:     127.0.0.1:41486 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:25:33 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:25:33 | INFO | stdout | INFO:     127.0.0.1:44244 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:25:48 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:25:48 | INFO | stdout | INFO:     127.0.0.1:34420 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:26:03 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:26:03 | INFO | stdout | INFO:     127.0.0.1:59018 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:26:18 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:26:18 | INFO | stdout | INFO:     127.0.0.1:48516 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:26:33 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:26:33 | INFO | stdout | INFO:     127.0.0.1:35252 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:26:48 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:26:48 | INFO | stdout | INFO:     127.0.0.1:58504 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:27:03 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:27:03 | INFO | stdout | INFO:     127.0.0.1:38936 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:27:18 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:27:18 | INFO | stdout | INFO:     127.0.0.1:43770 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:27:34 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:27:34 | INFO | stdout | INFO:     127.0.0.1:55274 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:27:49 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:27:49 | INFO | stdout | INFO:     127.0.0.1:33972 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:28:04 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:28:04 | INFO | stdout | INFO:     127.0.0.1:58640 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:28:19 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:28:19 | INFO | stdout | INFO:     127.0.0.1:54358 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:28:34 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:28:34 | INFO | stdout | INFO:     127.0.0.1:33542 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:28:49 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:28:49 | INFO | stdout | INFO:     127.0.0.1:35122 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:29:04 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:29:04 | INFO | stdout | INFO:     127.0.0.1:43802 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:29:19 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:29:19 | INFO | stdout | INFO:     127.0.0.1:34998 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:29:34 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:29:34 | INFO | stdout | INFO:     127.0.0.1:59458 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:29:49 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:29:49 | INFO | stdout | INFO:     127.0.0.1:43288 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:30:04 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:30:04 | INFO | stdout | INFO:     127.0.0.1:49648 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:30:19 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:30:19 | INFO | stdout | INFO:     127.0.0.1:44982 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:30:34 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:30:34 | INFO | stdout | INFO:     127.0.0.1:47338 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:30:49 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:30:49 | INFO | stdout | INFO:     127.0.0.1:44914 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:31:04 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:31:04 | INFO | stdout | INFO:     127.0.0.1:45066 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:31:19 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:31:19 | INFO | stdout | INFO:     127.0.0.1:54874 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:31:34 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:31:34 | INFO | stdout | INFO:     127.0.0.1:42994 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:31:49 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:31:49 | INFO | stdout | INFO:     127.0.0.1:48370 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:32:04 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:32:04 | INFO | stdout | INFO:     127.0.0.1:43762 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:32:19 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:32:19 | INFO | stdout | INFO:     127.0.0.1:45940 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:32:34 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:32:34 | INFO | stdout | INFO:     127.0.0.1:40744 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:32:49 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:32:49 | INFO | stdout | INFO:     127.0.0.1:39108 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:33:04 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:33:04 | INFO | stdout | INFO:     127.0.0.1:34168 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:33:19 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:33:19 | INFO | stdout | INFO:     127.0.0.1:56028 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:33:34 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:33:34 | INFO | stdout | INFO:     127.0.0.1:60888 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:33:49 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:33:49 | INFO | stdout | INFO:     127.0.0.1:42534 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:34:04 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:34:04 | INFO | stdout | INFO:     127.0.0.1:42090 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:34:19 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:34:19 | INFO | stdout | INFO:     127.0.0.1:39294 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:34:34 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:34:34 | INFO | stdout | INFO:     127.0.0.1:54680 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:34:49 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:34:49 | INFO | stdout | INFO:     127.0.0.1:40090 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:35:04 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:35:04 | INFO | stdout | INFO:     127.0.0.1:40394 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:35:19 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:35:19 | INFO | stdout | INFO:     127.0.0.1:56288 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:35:34 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:35:34 | INFO | stdout | INFO:     127.0.0.1:42288 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:35:49 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:35:49 | INFO | stdout | INFO:     127.0.0.1:58590 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:36:04 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:36:04 | INFO | stdout | INFO:     127.0.0.1:50836 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:36:19 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:36:19 | INFO | stdout | INFO:     127.0.0.1:55056 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:36:34 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:36:34 | INFO | stdout | INFO:     127.0.0.1:60298 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:36:49 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:36:49 | INFO | stdout | INFO:     127.0.0.1:38174 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:37:04 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:37:04 | INFO | stdout | INFO:     127.0.0.1:57620 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:37:19 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:37:19 | INFO | stdout | INFO:     127.0.0.1:60838 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:37:34 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:37:34 | INFO | stdout | INFO:     127.0.0.1:51590 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:37:49 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:37:49 | INFO | stdout | INFO:     127.0.0.1:57592 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:38:04 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:38:04 | INFO | stdout | INFO:     127.0.0.1:59426 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:38:19 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:38:19 | INFO | stdout | INFO:     127.0.0.1:38066 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:38:34 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:38:34 | INFO | stdout | INFO:     127.0.0.1:34002 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:38:49 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:38:49 | INFO | stdout | INFO:     127.0.0.1:44376 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:39:04 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:39:04 | INFO | stdout | INFO:     127.0.0.1:44536 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:39:19 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:39:19 | INFO | stdout | INFO:     127.0.0.1:40938 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:39:34 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:39:34 | INFO | stdout | INFO:     127.0.0.1:44536 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:39:49 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:39:49 | INFO | stdout | INFO:     127.0.0.1:37950 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:40:05 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:40:05 | INFO | stdout | INFO:     127.0.0.1:53488 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:40:20 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:40:20 | INFO | stdout | INFO:     127.0.0.1:57342 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:40:35 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:40:35 | INFO | stdout | INFO:     127.0.0.1:51952 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:40:50 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:40:50 | INFO | stdout | INFO:     127.0.0.1:56784 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:41:05 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:41:05 | INFO | stdout | INFO:     127.0.0.1:43826 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:41:20 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:41:20 | INFO | stdout | INFO:     127.0.0.1:45544 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:41:35 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:41:35 | INFO | stdout | INFO:     127.0.0.1:39852 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:41:50 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:41:50 | INFO | stdout | INFO:     127.0.0.1:44178 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:42:05 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:42:05 | INFO | stdout | INFO:     127.0.0.1:37466 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:42:20 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:42:20 | INFO | stdout | INFO:     127.0.0.1:40482 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:42:35 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:42:35 | INFO | stdout | INFO:     127.0.0.1:46088 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:42:50 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:42:50 | INFO | stdout | INFO:     127.0.0.1:52576 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:43:05 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:43:05 | INFO | stdout | INFO:     127.0.0.1:45506 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:43:20 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:43:20 | INFO | stdout | INFO:     127.0.0.1:57958 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:43:35 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:43:35 | INFO | stdout | INFO:     127.0.0.1:43434 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:43:50 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:43:50 | INFO | stdout | INFO:     127.0.0.1:45602 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:44:05 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:44:05 | INFO | stdout | INFO:     127.0.0.1:45852 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:44:20 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:44:20 | INFO | stdout | INFO:     127.0.0.1:47954 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:44:35 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:44:35 | INFO | stdout | INFO:     127.0.0.1:46362 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:44:50 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:44:50 | INFO | stdout | INFO:     127.0.0.1:53156 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:45:05 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:45:05 | INFO | stdout | INFO:     127.0.0.1:55810 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:45:20 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:45:20 | INFO | stdout | INFO:     127.0.0.1:54784 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:45:35 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:45:35 | INFO | stdout | INFO:     127.0.0.1:41144 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:45:50 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:45:50 | INFO | stdout | INFO:     127.0.0.1:46518 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:46:05 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:46:05 | INFO | stdout | INFO:     127.0.0.1:39006 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:46:20 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:46:20 | INFO | stdout | INFO:     127.0.0.1:56260 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:46:35 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:46:35 | INFO | stdout | INFO:     127.0.0.1:54730 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:46:50 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:46:50 | INFO | stdout | INFO:     127.0.0.1:55862 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:47:05 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:47:05 | INFO | stdout | INFO:     127.0.0.1:43016 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:47:20 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:47:20 | INFO | stdout | INFO:     127.0.0.1:51878 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:47:35 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:47:35 | INFO | stdout | INFO:     127.0.0.1:33430 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:47:50 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:47:50 | INFO | stdout | INFO:     127.0.0.1:56258 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:48:05 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:48:05 | INFO | stdout | INFO:     127.0.0.1:38326 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:48:20 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:48:20 | INFO | stdout | INFO:     127.0.0.1:34446 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:48:35 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:48:35 | INFO | stdout | INFO:     127.0.0.1:37494 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:48:50 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:48:50 | INFO | stdout | INFO:     127.0.0.1:33734 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:49:05 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:49:05 | INFO | stdout | INFO:     127.0.0.1:34932 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:49:20 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:49:20 | INFO | stdout | INFO:     127.0.0.1:36650 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:49:35 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:49:35 | INFO | stdout | INFO:     127.0.0.1:48264 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:49:50 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:49:50 | INFO | stdout | INFO:     127.0.0.1:59214 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:50:05 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:50:05 | INFO | stdout | INFO:     127.0.0.1:53838 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:50:20 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:50:20 | INFO | stdout | INFO:     127.0.0.1:59662 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:50:35 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:50:35 | INFO | stdout | INFO:     127.0.0.1:57652 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:50:50 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:50:50 | INFO | stdout | INFO:     127.0.0.1:50548 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:51:05 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:51:05 | INFO | stdout | INFO:     127.0.0.1:46648 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:51:20 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:51:20 | INFO | stdout | INFO:     127.0.0.1:48298 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:51:35 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:51:35 | INFO | stdout | INFO:     127.0.0.1:53892 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:51:50 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:51:50 | INFO | stdout | INFO:     127.0.0.1:33986 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:52:05 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:52:05 | INFO | stdout | INFO:     127.0.0.1:33224 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:52:20 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:52:20 | INFO | stdout | INFO:     127.0.0.1:33252 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:52:35 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:52:35 | INFO | stdout | INFO:     127.0.0.1:46980 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:52:51 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:52:51 | INFO | stdout | INFO:     127.0.0.1:38016 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:53:06 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:53:06 | INFO | stdout | INFO:     127.0.0.1:53692 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:53:21 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:53:21 | INFO | stdout | INFO:     127.0.0.1:51380 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:53:36 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:53:36 | INFO | stdout | INFO:     127.0.0.1:39008 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:53:51 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:53:51 | INFO | stdout | INFO:     127.0.0.1:37154 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:54:06 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:54:06 | INFO | stdout | INFO:     127.0.0.1:34732 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:54:21 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:54:21 | INFO | stdout | INFO:     127.0.0.1:54562 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:54:36 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:54:36 | INFO | stdout | INFO:     127.0.0.1:34188 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:54:51 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:54:51 | INFO | stdout | INFO:     127.0.0.1:49990 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:55:06 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:55:06 | INFO | stdout | INFO:     127.0.0.1:50066 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:55:21 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:55:21 | INFO | stdout | INFO:     127.0.0.1:43418 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:55:36 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:55:36 | INFO | stdout | INFO:     127.0.0.1:47474 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:55:51 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:55:51 | INFO | stdout | INFO:     127.0.0.1:36300 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:56:06 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:56:06 | INFO | stdout | INFO:     127.0.0.1:58022 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:56:21 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:56:21 | INFO | stdout | INFO:     127.0.0.1:47670 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:56:36 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:56:36 | INFO | stdout | INFO:     127.0.0.1:53544 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:56:51 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:56:51 | INFO | stdout | INFO:     127.0.0.1:43496 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:57:06 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:57:06 | INFO | stdout | INFO:     127.0.0.1:52324 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:57:21 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:57:21 | INFO | stdout | INFO:     127.0.0.1:37152 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:57:36 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:57:36 | INFO | stdout | INFO:     127.0.0.1:32810 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:57:51 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:57:51 | INFO | stdout | INFO:     127.0.0.1:50918 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:58:06 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:58:06 | INFO | stdout | INFO:     127.0.0.1:51230 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:58:21 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:58:21 | INFO | stdout | INFO:     127.0.0.1:51326 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:58:36 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:58:36 | INFO | stdout | INFO:     127.0.0.1:45718 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:58:51 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:58:51 | INFO | stdout | INFO:     127.0.0.1:58348 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:59:06 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:59:06 | INFO | stdout | INFO:     127.0.0.1:52382 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:59:21 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:59:21 | INFO | stdout | INFO:     127.0.0.1:48756 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:59:36 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:59:36 | INFO | stdout | INFO:     127.0.0.1:45228 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 20:59:51 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 20:59:51 | INFO | stdout | INFO:     127.0.0.1:51366 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:00:06 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:00:06 | INFO | stdout | INFO:     127.0.0.1:37864 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:00:21 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:00:21 | INFO | stdout | INFO:     127.0.0.1:50726 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:00:36 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:00:36 | INFO | stdout | INFO:     127.0.0.1:35666 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:00:51 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:00:51 | INFO | stdout | INFO:     127.0.0.1:46880 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:01:06 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:01:06 | INFO | stdout | INFO:     127.0.0.1:48448 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:01:21 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:01:21 | INFO | stdout | INFO:     127.0.0.1:52742 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:01:36 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:01:36 | INFO | stdout | INFO:     127.0.0.1:54946 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:01:51 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:01:51 | INFO | stdout | INFO:     127.0.0.1:48720 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:02:06 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:02:06 | INFO | stdout | INFO:     127.0.0.1:50184 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:02:21 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:02:21 | INFO | stdout | INFO:     127.0.0.1:51132 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:02:36 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:02:36 | INFO | stdout | INFO:     127.0.0.1:38664 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:02:51 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:02:51 | INFO | stdout | INFO:     127.0.0.1:44882 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:03:06 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:03:06 | INFO | stdout | INFO:     127.0.0.1:40906 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:03:21 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:03:21 | INFO | stdout | INFO:     127.0.0.1:35846 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:03:36 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:03:36 | INFO | stdout | INFO:     127.0.0.1:40052 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:03:51 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:03:51 | INFO | stdout | INFO:     127.0.0.1:33504 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:04:06 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:04:06 | INFO | stdout | INFO:     127.0.0.1:39052 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:04:21 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:04:21 | INFO | stdout | INFO:     127.0.0.1:52006 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:04:30 | INFO | controller | Register a new worker: http://127.0.0.1:40001
+2026-01-19 21:04:30 | INFO | controller | Register done: http://127.0.0.1:40001, {'model_names': ['SkyNova_4B'], 'speed': 1, 'queue_length': 0}
+2026-01-19 21:04:30 | INFO | stdout | INFO:     127.0.0.1:38516 - "POST /refresh_all_workers HTTP/1.1" 200 OK
+2026-01-19 21:04:30 | INFO | stdout | INFO:     127.0.0.1:38518 - "POST /list_models HTTP/1.1" 200 OK
+2026-01-19 21:04:36 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:04:36 | INFO | stdout | INFO:     127.0.0.1:50320 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:04:47 | INFO | controller | Register a new worker: http://127.0.0.1:40001
+2026-01-19 21:04:47 | INFO | controller | Register done: http://127.0.0.1:40001, {'model_names': ['SkyNova_4B'], 'speed': 1, 'queue_length': 0}
+2026-01-19 21:04:47 | INFO | stdout | INFO:     127.0.0.1:50004 - "POST /refresh_all_workers HTTP/1.1" 200 OK
+2026-01-19 21:04:47 | INFO | stdout | INFO:     127.0.0.1:50018 - "POST /list_models HTTP/1.1" 200 OK
+2026-01-19 21:04:47 | INFO | controller | Register a new worker: http://127.0.0.1:40001
+2026-01-19 21:04:47 | INFO | controller | Register done: http://127.0.0.1:40001, {'model_names': ['SkyNova_4B'], 'speed': 1, 'queue_length': 0}
+2026-01-19 21:04:47 | INFO | stdout | INFO:     127.0.0.1:50026 - "POST /refresh_all_workers HTTP/1.1" 200 OK
+2026-01-19 21:04:47 | INFO | stdout | INFO:     127.0.0.1:50030 - "POST /list_models HTTP/1.1" 200 OK
+2026-01-19 21:04:47 | INFO | controller | names: ['http://127.0.0.1:40001'], queue_lens: [0.0], ret: http://127.0.0.1:40001
+2026-01-19 21:04:47 | INFO | stdout | INFO:     127.0.0.1:50038 - "POST /get_worker_address HTTP/1.1" 200 OK
+2026-01-19 21:04:47 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:04:47 | INFO | stdout | INFO:     127.0.0.1:50044 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:04:48 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:04:48 | INFO | stdout | INFO:     127.0.0.1:50060 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:04:51 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:04:51 | INFO | stdout | INFO:     127.0.0.1:50064 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:05:06 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:05:06 | INFO | stdout | INFO:     127.0.0.1:60756 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:05:22 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:05:22 | INFO | stdout | INFO:     127.0.0.1:41030 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:05:37 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:05:37 | INFO | stdout | INFO:     127.0.0.1:49918 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:05:52 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:05:52 | INFO | stdout | INFO:     127.0.0.1:51496 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:06:07 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:06:07 | INFO | stdout | INFO:     127.0.0.1:60108 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:06:22 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:06:22 | INFO | stdout | INFO:     127.0.0.1:42580 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:06:37 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:06:37 | INFO | stdout | INFO:     127.0.0.1:40044 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:06:52 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:06:52 | INFO | stdout | INFO:     127.0.0.1:46290 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:07:07 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:07:07 | INFO | stdout | INFO:     127.0.0.1:34400 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:07:22 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:07:22 | INFO | stdout | INFO:     127.0.0.1:41002 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:07:37 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:07:37 | INFO | stdout | INFO:     127.0.0.1:52662 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:07:52 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:07:52 | INFO | stdout | INFO:     127.0.0.1:50186 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:08:07 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:08:07 | INFO | stdout | INFO:     127.0.0.1:36052 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:08:22 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:08:22 | INFO | stdout | INFO:     127.0.0.1:46088 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:08:37 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:08:37 | INFO | stdout | INFO:     127.0.0.1:57412 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:08:52 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:08:52 | INFO | stdout | INFO:     127.0.0.1:54174 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:09:07 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:09:07 | INFO | stdout | INFO:     127.0.0.1:42660 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:09:22 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:09:22 | INFO | stdout | INFO:     127.0.0.1:34288 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:09:37 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:09:37 | INFO | stdout | INFO:     127.0.0.1:53768 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:09:52 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:09:52 | INFO | stdout | INFO:     127.0.0.1:32980 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:10:07 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:10:07 | INFO | stdout | INFO:     127.0.0.1:40102 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:10:22 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:10:22 | INFO | stdout | INFO:     127.0.0.1:50204 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:10:37 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:10:37 | INFO | stdout | INFO:     127.0.0.1:42074 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:10:52 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:10:52 | INFO | stdout | INFO:     127.0.0.1:54426 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:11:07 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:11:07 | INFO | stdout | INFO:     127.0.0.1:52250 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:11:22 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:11:22 | INFO | stdout | INFO:     127.0.0.1:37814 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:11:37 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:11:37 | INFO | stdout | INFO:     127.0.0.1:43472 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:11:52 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:11:52 | INFO | stdout | INFO:     127.0.0.1:44384 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:12:07 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:12:07 | INFO | stdout | INFO:     127.0.0.1:60224 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:12:22 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:12:22 | INFO | stdout | INFO:     127.0.0.1:60612 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:12:37 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:12:37 | INFO | stdout | INFO:     127.0.0.1:36658 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:12:52 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:12:52 | INFO | stdout | INFO:     127.0.0.1:57716 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:13:07 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:13:07 | INFO | stdout | INFO:     127.0.0.1:58386 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:13:22 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:13:22 | INFO | stdout | INFO:     127.0.0.1:44514 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:13:37 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:13:37 | INFO | stdout | INFO:     127.0.0.1:57216 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:13:52 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:13:52 | INFO | stdout | INFO:     127.0.0.1:49060 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:14:07 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:14:07 | INFO | stdout | INFO:     127.0.0.1:42600 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:14:22 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:14:22 | INFO | stdout | INFO:     127.0.0.1:37428 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:14:37 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:14:37 | INFO | stdout | INFO:     127.0.0.1:37016 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:14:52 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:14:52 | INFO | stdout | INFO:     127.0.0.1:49516 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:15:07 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:15:07 | INFO | stdout | INFO:     127.0.0.1:54640 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:15:22 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:15:22 | INFO | stdout | INFO:     127.0.0.1:60566 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:15:37 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:15:37 | INFO | stdout | INFO:     127.0.0.1:51236 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:15:52 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:15:52 | INFO | stdout | INFO:     127.0.0.1:59588 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:16:07 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:16:07 | INFO | stdout | INFO:     127.0.0.1:50054 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:16:22 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:16:22 | INFO | stdout | INFO:     127.0.0.1:47838 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:16:37 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:16:37 | INFO | stdout | INFO:     127.0.0.1:41796 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:16:52 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:16:52 | INFO | stdout | INFO:     127.0.0.1:34226 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:17:07 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:17:07 | INFO | stdout | INFO:     127.0.0.1:44096 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:17:22 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:17:22 | INFO | stdout | INFO:     127.0.0.1:46016 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:17:38 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:17:38 | INFO | stdout | INFO:     127.0.0.1:35828 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:17:53 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:17:53 | INFO | stdout | INFO:     127.0.0.1:47670 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:18:08 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:18:08 | INFO | stdout | INFO:     127.0.0.1:52654 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:18:23 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:18:23 | INFO | stdout | INFO:     127.0.0.1:59614 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:18:38 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:18:38 | INFO | stdout | INFO:     127.0.0.1:55784 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:18:53 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:18:53 | INFO | stdout | INFO:     127.0.0.1:50676 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:18:53 | INFO | controller | Register a new worker: http://127.0.0.1:40001
+2026-01-19 21:18:53 | INFO | controller | Register done: http://127.0.0.1:40001, {'model_names': ['SkyNova_4B'], 'speed': 1, 'queue_length': 0}
+2026-01-19 21:18:53 | INFO | stdout | INFO:     127.0.0.1:50682 - "POST /refresh_all_workers HTTP/1.1" 200 OK
+2026-01-19 21:18:53 | INFO | stdout | INFO:     127.0.0.1:50696 - "POST /list_models HTTP/1.1" 200 OK
+2026-01-19 21:18:53 | INFO | controller | names: ['http://127.0.0.1:40001'], queue_lens: [0.0], ret: http://127.0.0.1:40001
+2026-01-19 21:18:53 | INFO | stdout | INFO:     127.0.0.1:50704 - "POST /get_worker_address HTTP/1.1" 200 OK
+2026-01-19 21:18:53 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:18:53 | INFO | stdout | INFO:     127.0.0.1:50706 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:18:54 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:18:54 | INFO | stdout | INFO:     127.0.0.1:50722 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:19:08 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:19:08 | INFO | stdout | INFO:     127.0.0.1:36952 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:19:23 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:19:23 | INFO | stdout | INFO:     127.0.0.1:44836 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:19:38 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:19:38 | INFO | stdout | INFO:     127.0.0.1:48072 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:19:53 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:19:53 | INFO | stdout | INFO:     127.0.0.1:37744 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:20:08 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:20:08 | INFO | stdout | INFO:     127.0.0.1:49838 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:20:23 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:20:23 | INFO | stdout | INFO:     127.0.0.1:45340 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:20:38 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:20:38 | INFO | stdout | INFO:     127.0.0.1:54894 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:20:47 | INFO | controller | Register a new worker: http://127.0.0.1:40001
+2026-01-19 21:20:47 | INFO | controller | Register done: http://127.0.0.1:40001, {'model_names': ['SkyNova_4B'], 'speed': 1, 'queue_length': 0}
+2026-01-19 21:20:47 | INFO | stdout | INFO:     127.0.0.1:36494 - "POST /refresh_all_workers HTTP/1.1" 200 OK
+2026-01-19 21:20:47 | INFO | stdout | INFO:     127.0.0.1:36500 - "POST /list_models HTTP/1.1" 200 OK
+2026-01-19 21:20:47 | INFO | controller | names: ['http://127.0.0.1:40001'], queue_lens: [0.0], ret: http://127.0.0.1:40001
+2026-01-19 21:20:47 | INFO | stdout | INFO:     127.0.0.1:36516 - "POST /get_worker_address HTTP/1.1" 200 OK
+2026-01-19 21:20:47 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:20:47 | INFO | stdout | INFO:     127.0.0.1:36524 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:20:48 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:20:48 | INFO | stdout | INFO:     127.0.0.1:36534 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:20:52 | INFO | controller | Register a new worker: http://127.0.0.1:40001
+2026-01-19 21:20:52 | INFO | controller | Register done: http://127.0.0.1:40001, {'model_names': ['SkyNova_4B'], 'speed': 1, 'queue_length': 0}
+2026-01-19 21:20:52 | INFO | stdout | INFO:     127.0.0.1:36536 - "POST /refresh_all_workers HTTP/1.1" 200 OK
+2026-01-19 21:20:52 | INFO | stdout | INFO:     127.0.0.1:36544 - "POST /list_models HTTP/1.1" 200 OK
+2026-01-19 21:20:53 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:20:53 | INFO | stdout | INFO:     127.0.0.1:36560 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:21:08 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:21:08 | INFO | stdout | INFO:     127.0.0.1:45354 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:21:11 | INFO | controller | Register a new worker: http://127.0.0.1:40001
+2026-01-19 21:21:11 | INFO | controller | Register done: http://127.0.0.1:40001, {'model_names': ['SkyNova_4B'], 'speed': 1, 'queue_length': 0}
+2026-01-19 21:21:11 | INFO | stdout | INFO:     127.0.0.1:45358 - "POST /refresh_all_workers HTTP/1.1" 200 OK
+2026-01-19 21:21:11 | INFO | stdout | INFO:     127.0.0.1:45368 - "POST /list_models HTTP/1.1" 200 OK
+2026-01-19 21:21:14 | INFO | controller | Register a new worker: http://127.0.0.1:40001
+2026-01-19 21:21:14 | INFO | controller | Register done: http://127.0.0.1:40001, {'model_names': ['SkyNova_4B'], 'speed': 1, 'queue_length': 0}
+2026-01-19 21:21:14 | INFO | stdout | INFO:     127.0.0.1:45380 - "POST /refresh_all_workers HTTP/1.1" 200 OK
+2026-01-19 21:21:14 | INFO | stdout | INFO:     127.0.0.1:45390 - "POST /list_models HTTP/1.1" 200 OK
+2026-01-19 21:21:14 | INFO | controller | Register a new worker: http://127.0.0.1:40001
+2026-01-19 21:21:14 | INFO | controller | Register done: http://127.0.0.1:40001, {'model_names': ['SkyNova_4B'], 'speed': 1, 'queue_length': 0}
+2026-01-19 21:21:14 | INFO | stdout | INFO:     127.0.0.1:45404 - "POST /refresh_all_workers HTTP/1.1" 200 OK
+2026-01-19 21:21:14 | INFO | stdout | INFO:     127.0.0.1:45412 - "POST /list_models HTTP/1.1" 200 OK
+2026-01-19 21:21:14 | INFO | controller | names: ['http://127.0.0.1:40001'], queue_lens: [0.0], ret: http://127.0.0.1:40001
+2026-01-19 21:21:14 | INFO | stdout | INFO:     127.0.0.1:45422 - "POST /get_worker_address HTTP/1.1" 200 OK
+2026-01-19 21:21:14 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:21:14 | INFO | stdout | INFO:     127.0.0.1:45436 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:21:14 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:21:14 | INFO | stdout | INFO:     127.0.0.1:45450 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:21:23 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:21:23 | INFO | stdout | INFO:     127.0.0.1:33386 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:21:38 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:21:38 | INFO | stdout | INFO:     127.0.0.1:34652 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:21:53 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:21:53 | INFO | stdout | INFO:     127.0.0.1:43592 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:22:08 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:22:08 | INFO | stdout | INFO:     127.0.0.1:60120 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:22:23 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:22:23 | INFO | stdout | INFO:     127.0.0.1:40344 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:22:38 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:22:38 | INFO | stdout | INFO:     127.0.0.1:33622 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:22:53 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:22:53 | INFO | stdout | INFO:     127.0.0.1:45660 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:23:08 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:23:08 | INFO | stdout | INFO:     127.0.0.1:48576 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:23:23 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:23:23 | INFO | stdout | INFO:     127.0.0.1:46136 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:23:38 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:23:38 | INFO | stdout | INFO:     127.0.0.1:55858 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:23:53 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:23:53 | INFO | stdout | INFO:     127.0.0.1:60978 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:24:08 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:24:08 | INFO | stdout | INFO:     127.0.0.1:53408 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:24:23 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:24:23 | INFO | stdout | INFO:     127.0.0.1:55166 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:24:38 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:24:38 | INFO | stdout | INFO:     127.0.0.1:46578 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:24:53 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:24:53 | INFO | stdout | INFO:     127.0.0.1:51082 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:25:08 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:25:08 | INFO | stdout | INFO:     127.0.0.1:48740 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:25:23 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:25:23 | INFO | stdout | INFO:     127.0.0.1:38216 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:25:38 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:25:38 | INFO | stdout | INFO:     127.0.0.1:40924 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:25:53 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:25:53 | INFO | stdout | INFO:     127.0.0.1:47976 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:26:08 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:26:08 | INFO | stdout | INFO:     127.0.0.1:49898 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:26:23 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:26:23 | INFO | stdout | INFO:     127.0.0.1:34460 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:26:38 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:26:38 | INFO | stdout | INFO:     127.0.0.1:33634 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:26:53 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:26:53 | INFO | stdout | INFO:     127.0.0.1:54510 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:27:08 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:27:08 | INFO | stdout | INFO:     127.0.0.1:32854 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:27:23 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:27:23 | INFO | stdout | INFO:     127.0.0.1:57586 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:27:38 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:27:38 | INFO | stdout | INFO:     127.0.0.1:59108 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:27:53 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:27:53 | INFO | stdout | INFO:     127.0.0.1:37388 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:28:08 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:28:08 | INFO | stdout | INFO:     127.0.0.1:55608 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:28:23 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:28:23 | INFO | stdout | INFO:     127.0.0.1:47392 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:28:38 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:28:38 | INFO | stdout | INFO:     127.0.0.1:42194 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:28:53 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:28:53 | INFO | stdout | INFO:     127.0.0.1:33588 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:29:08 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:29:08 | INFO | stdout | INFO:     127.0.0.1:36258 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:29:23 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:29:23 | INFO | stdout | INFO:     127.0.0.1:48840 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:29:38 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:29:38 | INFO | stdout | INFO:     127.0.0.1:41746 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:29:54 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:29:54 | INFO | stdout | INFO:     127.0.0.1:37764 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:30:09 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:30:09 | INFO | stdout | INFO:     127.0.0.1:39872 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:30:24 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:30:24 | INFO | stdout | INFO:     127.0.0.1:52908 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:30:39 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:30:39 | INFO | stdout | INFO:     127.0.0.1:50072 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:30:54 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:30:54 | INFO | stdout | INFO:     127.0.0.1:55526 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:31:09 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:31:09 | INFO | stdout | INFO:     127.0.0.1:53346 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:31:24 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:31:24 | INFO | stdout | INFO:     127.0.0.1:35472 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:31:39 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:31:39 | INFO | stdout | INFO:     127.0.0.1:48426 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:31:54 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:31:54 | INFO | stdout | INFO:     127.0.0.1:50464 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:32:09 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:32:09 | INFO | stdout | INFO:     127.0.0.1:51208 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:32:24 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:32:24 | INFO | stdout | INFO:     127.0.0.1:48770 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:32:39 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:32:39 | INFO | stdout | INFO:     127.0.0.1:58784 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:32:54 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:32:54 | INFO | stdout | INFO:     127.0.0.1:43066 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:33:09 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:33:09 | INFO | stdout | INFO:     127.0.0.1:38904 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:33:24 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:33:24 | INFO | stdout | INFO:     127.0.0.1:37834 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:33:39 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:33:39 | INFO | stdout | INFO:     127.0.0.1:46392 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:33:54 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:33:54 | INFO | stdout | INFO:     127.0.0.1:54384 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:34:09 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:34:09 | INFO | stdout | INFO:     127.0.0.1:48684 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:34:24 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:34:24 | INFO | stdout | INFO:     127.0.0.1:50644 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:34:39 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:34:39 | INFO | stdout | INFO:     127.0.0.1:42846 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:34:54 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:34:54 | INFO | stdout | INFO:     127.0.0.1:36670 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:35:09 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:35:09 | INFO | stdout | INFO:     127.0.0.1:57868 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:35:24 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:35:24 | INFO | stdout | INFO:     127.0.0.1:60260 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:35:39 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:35:39 | INFO | stdout | INFO:     127.0.0.1:38546 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:35:54 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:35:54 | INFO | stdout | INFO:     127.0.0.1:45020 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:36:09 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:36:09 | INFO | stdout | INFO:     127.0.0.1:44916 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:36:24 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:36:24 | INFO | stdout | INFO:     127.0.0.1:37652 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:36:39 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:36:39 | INFO | stdout | INFO:     127.0.0.1:38456 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:36:54 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:36:54 | INFO | stdout | INFO:     127.0.0.1:46672 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:37:09 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:37:09 | INFO | stdout | INFO:     127.0.0.1:42338 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:37:24 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:37:24 | INFO | stdout | INFO:     127.0.0.1:49302 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:37:39 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:37:39 | INFO | stdout | INFO:     127.0.0.1:45798 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:37:54 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:37:54 | INFO | stdout | INFO:     127.0.0.1:54018 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:38:09 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:38:09 | INFO | stdout | INFO:     127.0.0.1:38180 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:38:24 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:38:24 | INFO | stdout | INFO:     127.0.0.1:36692 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:38:39 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:38:39 | INFO | stdout | INFO:     127.0.0.1:48922 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:38:54 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:38:54 | INFO | stdout | INFO:     127.0.0.1:44036 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:39:09 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:39:09 | INFO | stdout | INFO:     127.0.0.1:54128 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:39:24 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:39:24 | INFO | stdout | INFO:     127.0.0.1:52332 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:39:39 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:39:39 | INFO | stdout | INFO:     127.0.0.1:44530 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:39:54 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:39:54 | INFO | stdout | INFO:     127.0.0.1:56274 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:40:09 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:40:09 | INFO | stdout | INFO:     127.0.0.1:41744 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:40:24 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:40:24 | INFO | stdout | INFO:     127.0.0.1:46926 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:40:39 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:40:39 | INFO | stdout | INFO:     127.0.0.1:57084 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:40:54 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:40:54 | INFO | stdout | INFO:     127.0.0.1:48932 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:41:09 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:41:09 | INFO | stdout | INFO:     127.0.0.1:46784 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:41:24 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:41:24 | INFO | stdout | INFO:     127.0.0.1:33422 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:41:39 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:41:39 | INFO | stdout | INFO:     127.0.0.1:35106 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:41:54 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:41:54 | INFO | stdout | INFO:     127.0.0.1:53498 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:42:10 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:42:10 | INFO | stdout | INFO:     127.0.0.1:38510 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:42:25 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:42:25 | INFO | stdout | INFO:     127.0.0.1:37264 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:42:40 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:42:40 | INFO | stdout | INFO:     127.0.0.1:47828 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:42:55 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:42:55 | INFO | stdout | INFO:     127.0.0.1:37036 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:43:10 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:43:10 | INFO | stdout | INFO:     127.0.0.1:35542 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:43:25 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:43:25 | INFO | stdout | INFO:     127.0.0.1:51782 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:43:40 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:43:40 | INFO | stdout | INFO:     127.0.0.1:39802 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:43:55 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:43:55 | INFO | stdout | INFO:     127.0.0.1:48984 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:44:10 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:44:10 | INFO | stdout | INFO:     127.0.0.1:32890 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:44:25 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:44:25 | INFO | stdout | INFO:     127.0.0.1:41812 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:44:40 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:44:40 | INFO | stdout | INFO:     127.0.0.1:48844 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:44:55 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:44:55 | INFO | stdout | INFO:     127.0.0.1:47618 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:45:10 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:45:10 | INFO | stdout | INFO:     127.0.0.1:51664 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:45:25 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:45:25 | INFO | stdout | INFO:     127.0.0.1:47472 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:45:40 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:45:40 | INFO | stdout | INFO:     127.0.0.1:55828 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:45:55 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:45:55 | INFO | stdout | INFO:     127.0.0.1:50684 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:46:10 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:46:10 | INFO | stdout | INFO:     127.0.0.1:48202 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:46:25 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:46:25 | INFO | stdout | INFO:     127.0.0.1:38498 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:46:40 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:46:40 | INFO | stdout | INFO:     127.0.0.1:50192 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:46:55 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:46:55 | INFO | stdout | INFO:     127.0.0.1:38940 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:47:10 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:47:10 | INFO | stdout | INFO:     127.0.0.1:48662 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:47:25 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:47:25 | INFO | stdout | INFO:     127.0.0.1:53702 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:47:40 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:47:40 | INFO | stdout | INFO:     127.0.0.1:41308 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:47:55 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:47:55 | INFO | stdout | INFO:     127.0.0.1:38140 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:48:10 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:48:10 | INFO | stdout | INFO:     127.0.0.1:56704 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:48:25 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:48:25 | INFO | stdout | INFO:     127.0.0.1:60382 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:48:40 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:48:40 | INFO | stdout | INFO:     127.0.0.1:58098 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:48:55 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:48:55 | INFO | stdout | INFO:     127.0.0.1:37988 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:49:10 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:49:10 | INFO | stdout | INFO:     127.0.0.1:38034 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:49:25 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:49:25 | INFO | stdout | INFO:     127.0.0.1:56684 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:49:40 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:49:40 | INFO | stdout | INFO:     127.0.0.1:50062 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:49:55 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:49:55 | INFO | stdout | INFO:     127.0.0.1:60408 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:50:10 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:50:10 | INFO | stdout | INFO:     127.0.0.1:40760 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:50:25 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:50:25 | INFO | stdout | INFO:     127.0.0.1:53396 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:50:40 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:50:40 | INFO | stdout | INFO:     127.0.0.1:51438 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:50:55 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:50:55 | INFO | stdout | INFO:     127.0.0.1:49258 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:51:10 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:51:10 | INFO | stdout | INFO:     127.0.0.1:56968 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:51:25 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:51:25 | INFO | stdout | INFO:     127.0.0.1:39324 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:51:40 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:51:40 | INFO | stdout | INFO:     127.0.0.1:60760 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:51:55 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:51:55 | INFO | stdout | INFO:     127.0.0.1:35954 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:52:10 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:52:10 | INFO | stdout | INFO:     127.0.0.1:37178 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:52:25 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:52:25 | INFO | stdout | INFO:     127.0.0.1:60992 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:52:40 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:52:40 | INFO | stdout | INFO:     127.0.0.1:45598 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:52:55 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:52:55 | INFO | stdout | INFO:     127.0.0.1:49358 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:53:10 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:53:10 | INFO | stdout | INFO:     127.0.0.1:43200 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:53:25 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:53:25 | INFO | stdout | INFO:     127.0.0.1:54786 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:53:40 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:53:40 | INFO | stdout | INFO:     127.0.0.1:45424 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:53:55 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:53:55 | INFO | stdout | INFO:     127.0.0.1:51194 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:54:10 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:54:10 | INFO | stdout | INFO:     127.0.0.1:33680 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:54:25 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:54:25 | INFO | stdout | INFO:     127.0.0.1:58592 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:54:40 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:54:40 | INFO | stdout | INFO:     127.0.0.1:50616 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:54:55 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:54:55 | INFO | stdout | INFO:     127.0.0.1:50224 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:55:11 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:55:11 | INFO | stdout | INFO:     127.0.0.1:48564 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:55:26 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:55:26 | INFO | stdout | INFO:     127.0.0.1:58248 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:55:41 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:55:41 | INFO | stdout | INFO:     127.0.0.1:41616 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:55:56 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:55:56 | INFO | stdout | INFO:     127.0.0.1:54272 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:56:11 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:56:11 | INFO | stdout | INFO:     127.0.0.1:43042 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:56:26 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:56:26 | INFO | stdout | INFO:     127.0.0.1:40254 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:56:41 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:56:41 | INFO | stdout | INFO:     127.0.0.1:51402 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:56:56 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:56:56 | INFO | stdout | INFO:     127.0.0.1:54110 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:57:11 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:57:11 | INFO | stdout | INFO:     127.0.0.1:51612 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:57:26 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:57:26 | INFO | stdout | INFO:     127.0.0.1:45726 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:57:41 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:57:41 | INFO | stdout | INFO:     127.0.0.1:55210 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:57:56 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:57:56 | INFO | stdout | INFO:     127.0.0.1:46828 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:58:11 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:58:11 | INFO | stdout | INFO:     127.0.0.1:59804 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:58:26 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:58:26 | INFO | stdout | INFO:     127.0.0.1:59574 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:58:41 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:58:41 | INFO | stdout | INFO:     127.0.0.1:38368 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:58:56 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:58:56 | INFO | stdout | INFO:     127.0.0.1:40772 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:59:11 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:59:11 | INFO | stdout | INFO:     127.0.0.1:36054 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:59:26 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:59:26 | INFO | stdout | INFO:     127.0.0.1:33076 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:59:41 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:59:41 | INFO | stdout | INFO:     127.0.0.1:35404 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 21:59:56 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 21:59:56 | INFO | stdout | INFO:     127.0.0.1:37264 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:00:11 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:00:11 | INFO | stdout | INFO:     127.0.0.1:48968 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:00:26 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:00:26 | INFO | stdout | INFO:     127.0.0.1:40826 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:00:41 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:00:41 | INFO | stdout | INFO:     127.0.0.1:43128 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:00:56 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:00:56 | INFO | stdout | INFO:     127.0.0.1:47062 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:01:11 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:01:11 | INFO | stdout | INFO:     127.0.0.1:39940 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:01:26 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:01:26 | INFO | stdout | INFO:     127.0.0.1:52626 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:01:41 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:01:41 | INFO | stdout | INFO:     127.0.0.1:59948 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:01:56 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:01:56 | INFO | stdout | INFO:     127.0.0.1:57998 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:02:11 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:02:11 | INFO | stdout | INFO:     127.0.0.1:43538 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:02:26 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:02:26 | INFO | stdout | INFO:     127.0.0.1:37300 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:02:41 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:02:41 | INFO | stdout | INFO:     127.0.0.1:51980 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:02:56 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:02:56 | INFO | stdout | INFO:     127.0.0.1:33362 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:03:11 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:03:11 | INFO | stdout | INFO:     127.0.0.1:59560 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:03:26 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:03:26 | INFO | stdout | INFO:     127.0.0.1:36840 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:03:41 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:03:41 | INFO | stdout | INFO:     127.0.0.1:49616 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:03:56 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:03:56 | INFO | stdout | INFO:     127.0.0.1:58766 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:04:11 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:04:11 | INFO | stdout | INFO:     127.0.0.1:54360 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:04:26 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:04:26 | INFO | stdout | INFO:     127.0.0.1:36466 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:04:41 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:04:41 | INFO | stdout | INFO:     127.0.0.1:44042 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:04:56 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:04:56 | INFO | stdout | INFO:     127.0.0.1:38352 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:05:11 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:05:11 | INFO | stdout | INFO:     127.0.0.1:37872 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:05:26 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:05:26 | INFO | stdout | INFO:     127.0.0.1:50904 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:05:41 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:05:41 | INFO | stdout | INFO:     127.0.0.1:47150 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:05:56 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:05:56 | INFO | stdout | INFO:     127.0.0.1:42670 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:06:11 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:06:11 | INFO | stdout | INFO:     127.0.0.1:40198 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:06:26 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:06:26 | INFO | stdout | INFO:     127.0.0.1:47120 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:06:41 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:06:41 | INFO | stdout | INFO:     127.0.0.1:58896 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:06:56 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:06:56 | INFO | stdout | INFO:     127.0.0.1:38716 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:07:11 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:07:11 | INFO | stdout | INFO:     127.0.0.1:46974 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:07:26 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:07:26 | INFO | stdout | INFO:     127.0.0.1:55092 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:07:35 | INFO | controller | Register a new worker: http://127.0.0.1:40001
+2026-01-19 22:07:35 | INFO | controller | Register done: http://127.0.0.1:40001, {'model_names': ['SkyNova_4B'], 'speed': 1, 'queue_length': 0}
+2026-01-19 22:07:35 | INFO | stdout | INFO:     127.0.0.1:55100 - "POST /refresh_all_workers HTTP/1.1" 200 OK
+2026-01-19 22:07:35 | INFO | stdout | INFO:     127.0.0.1:55114 - "POST /list_models HTTP/1.1" 200 OK
+2026-01-19 22:07:40 | INFO | controller | Register a new worker: http://127.0.0.1:40001
+2026-01-19 22:07:40 | INFO | controller | Register done: http://127.0.0.1:40001, {'model_names': ['SkyNova_4B'], 'speed': 1, 'queue_length': 0}
+2026-01-19 22:07:40 | INFO | stdout | INFO:     127.0.0.1:38408 - "POST /refresh_all_workers HTTP/1.1" 200 OK
+2026-01-19 22:07:40 | INFO | stdout | INFO:     127.0.0.1:38418 - "POST /list_models HTTP/1.1" 200 OK
+2026-01-19 22:07:42 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:07:42 | INFO | stdout | INFO:     127.0.0.1:38432 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:07:48 | INFO | controller | Register a new worker: http://127.0.0.1:40001
+2026-01-19 22:07:48 | INFO | controller | Register done: http://127.0.0.1:40001, {'model_names': ['SkyNova_4B'], 'speed': 1, 'queue_length': 0}
+2026-01-19 22:07:48 | INFO | stdout | INFO:     127.0.0.1:54218 - "POST /refresh_all_workers HTTP/1.1" 200 OK
+2026-01-19 22:07:48 | INFO | stdout | INFO:     127.0.0.1:54232 - "POST /list_models HTTP/1.1" 200 OK
+2026-01-19 22:07:48 | INFO | controller | Register a new worker: http://127.0.0.1:40001
+2026-01-19 22:07:48 | INFO | controller | Register done: http://127.0.0.1:40001, {'model_names': ['SkyNova_4B'], 'speed': 1, 'queue_length': 0}
+2026-01-19 22:07:48 | INFO | stdout | INFO:     127.0.0.1:54236 - "POST /refresh_all_workers HTTP/1.1" 200 OK
+2026-01-19 22:07:48 | INFO | stdout | INFO:     127.0.0.1:54240 - "POST /list_models HTTP/1.1" 200 OK
+2026-01-19 22:07:48 | INFO | controller | names: ['http://127.0.0.1:40001'], queue_lens: [0.0], ret: http://127.0.0.1:40001
+2026-01-19 22:07:48 | INFO | stdout | INFO:     127.0.0.1:54244 - "POST /get_worker_address HTTP/1.1" 200 OK
+2026-01-19 22:07:48 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:07:48 | INFO | stdout | INFO:     127.0.0.1:54248 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:07:51 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:07:51 | INFO | stdout | INFO:     127.0.0.1:54258 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:07:57 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:07:57 | INFO | stdout | INFO:     127.0.0.1:43452 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:08:12 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:08:12 | INFO | stdout | INFO:     127.0.0.1:49282 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:08:27 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:08:27 | INFO | stdout | INFO:     127.0.0.1:49138 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:08:42 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:08:42 | INFO | stdout | INFO:     127.0.0.1:40784 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:08:57 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:08:57 | INFO | stdout | INFO:     127.0.0.1:57872 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:09:12 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:09:12 | INFO | stdout | INFO:     127.0.0.1:40106 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:09:27 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:09:27 | INFO | stdout | INFO:     127.0.0.1:37726 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:09:42 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:09:42 | INFO | stdout | INFO:     127.0.0.1:59566 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:09:57 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:09:57 | INFO | stdout | INFO:     127.0.0.1:47288 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:10:12 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:10:12 | INFO | stdout | INFO:     127.0.0.1:40368 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:10:25 | INFO | controller | Register a new worker: http://127.0.0.1:40001
+2026-01-19 22:10:25 | INFO | controller | Register done: http://127.0.0.1:40001, {'model_names': ['SkyNova_4B'], 'speed': 1, 'queue_length': 0}
+2026-01-19 22:10:25 | INFO | stdout | INFO:     127.0.0.1:47572 - "POST /refresh_all_workers HTTP/1.1" 200 OK
+2026-01-19 22:10:25 | INFO | stdout | INFO:     127.0.0.1:47580 - "POST /list_models HTTP/1.1" 200 OK
+2026-01-19 22:10:25 | INFO | controller | names: ['http://127.0.0.1:40001'], queue_lens: [0.0], ret: http://127.0.0.1:40001
+2026-01-19 22:10:25 | INFO | stdout | INFO:     127.0.0.1:47584 - "POST /get_worker_address HTTP/1.1" 200 OK
+2026-01-19 22:10:25 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:10:25 | INFO | stdout | INFO:     127.0.0.1:47594 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:10:26 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:10:26 | INFO | stdout | INFO:     127.0.0.1:55240 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:10:27 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:10:27 | INFO | stdout | INFO:     127.0.0.1:55254 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:10:42 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:10:42 | INFO | stdout | INFO:     127.0.0.1:58388 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:10:57 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:10:57 | INFO | stdout | INFO:     127.0.0.1:57480 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:11:12 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:11:12 | INFO | stdout | INFO:     127.0.0.1:49790 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:11:27 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:11:27 | INFO | stdout | INFO:     127.0.0.1:50246 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:11:42 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:11:42 | INFO | stdout | INFO:     127.0.0.1:41328 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:11:57 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:11:57 | INFO | stdout | INFO:     127.0.0.1:32822 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:12:12 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:12:12 | INFO | stdout | INFO:     127.0.0.1:37496 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:12:27 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:12:27 | INFO | stdout | INFO:     127.0.0.1:52586 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:12:42 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:12:42 | INFO | stdout | INFO:     127.0.0.1:56288 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:12:57 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:12:57 | INFO | stdout | INFO:     127.0.0.1:58184 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:13:12 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:13:12 | INFO | stdout | INFO:     127.0.0.1:41536 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:13:27 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:13:27 | INFO | stdout | INFO:     127.0.0.1:36248 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:13:42 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:13:42 | INFO | stdout | INFO:     127.0.0.1:58196 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:13:57 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:13:57 | INFO | stdout | INFO:     127.0.0.1:57626 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:14:12 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:14:12 | INFO | stdout | INFO:     127.0.0.1:45920 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:14:27 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:14:27 | INFO | stdout | INFO:     127.0.0.1:40408 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:14:42 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:14:42 | INFO | stdout | INFO:     127.0.0.1:35840 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:14:57 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:14:57 | INFO | stdout | INFO:     127.0.0.1:50826 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:15:12 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:15:12 | INFO | stdout | INFO:     127.0.0.1:54526 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:15:27 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:15:27 | INFO | stdout | INFO:     127.0.0.1:55002 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:15:42 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:15:42 | INFO | stdout | INFO:     127.0.0.1:40228 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:15:57 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:15:57 | INFO | stdout | INFO:     127.0.0.1:36940 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:16:12 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:16:12 | INFO | stdout | INFO:     127.0.0.1:37330 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:16:27 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:16:27 | INFO | stdout | INFO:     127.0.0.1:49882 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:16:42 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:16:42 | INFO | stdout | INFO:     127.0.0.1:46602 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:16:57 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:16:57 | INFO | stdout | INFO:     127.0.0.1:42898 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:17:12 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:17:12 | INFO | stdout | INFO:     127.0.0.1:55338 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:17:27 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:17:27 | INFO | stdout | INFO:     127.0.0.1:39032 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:17:42 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:17:42 | INFO | stdout | INFO:     127.0.0.1:43520 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:17:57 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:17:57 | INFO | stdout | INFO:     127.0.0.1:58770 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:18:12 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:18:12 | INFO | stdout | INFO:     127.0.0.1:51374 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:18:27 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:18:27 | INFO | stdout | INFO:     127.0.0.1:53506 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:18:42 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:18:42 | INFO | stdout | INFO:     127.0.0.1:58086 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:18:57 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:18:57 | INFO | stdout | INFO:     127.0.0.1:54394 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:19:12 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:19:12 | INFO | stdout | INFO:     127.0.0.1:59378 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:19:27 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:19:27 | INFO | stdout | INFO:     127.0.0.1:41030 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:19:42 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:19:42 | INFO | stdout | INFO:     127.0.0.1:56722 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:19:57 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:19:57 | INFO | stdout | INFO:     127.0.0.1:38084 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:20:12 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:20:12 | INFO | stdout | INFO:     127.0.0.1:33790 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:20:15 | INFO | controller | Register a new worker: http://127.0.0.1:40001
+2026-01-19 22:20:15 | INFO | controller | Register done: http://127.0.0.1:40001, {'model_names': ['SkyNova_4B'], 'speed': 1, 'queue_length': 0}
+2026-01-19 22:20:15 | INFO | stdout | INFO:     127.0.0.1:33796 - "POST /refresh_all_workers HTTP/1.1" 200 OK
+2026-01-19 22:20:15 | INFO | stdout | INFO:     127.0.0.1:33802 - "POST /list_models HTTP/1.1" 200 OK
+2026-01-19 22:20:23 | INFO | controller | Register a new worker: http://127.0.0.1:40001
+2026-01-19 22:20:23 | INFO | controller | Register done: http://127.0.0.1:40001, {'model_names': ['SkyNova_4B'], 'speed': 1, 'queue_length': 0}
+2026-01-19 22:20:23 | INFO | stdout | INFO:     127.0.0.1:44556 - "POST /refresh_all_workers HTTP/1.1" 200 OK
+2026-01-19 22:20:23 | INFO | stdout | INFO:     127.0.0.1:44564 - "POST /list_models HTTP/1.1" 200 OK
+2026-01-19 22:20:28 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:20:28 | INFO | stdout | INFO:     127.0.0.1:45838 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:20:38 | INFO | controller | Register a new worker: http://127.0.0.1:40001
+2026-01-19 22:20:38 | INFO | controller | Register done: http://127.0.0.1:40001, {'model_names': ['SkyNova_4B'], 'speed': 1, 'queue_length': 0}
+2026-01-19 22:20:38 | INFO | stdout | INFO:     127.0.0.1:54318 - "POST /refresh_all_workers HTTP/1.1" 200 OK
+2026-01-19 22:20:38 | INFO | stdout | INFO:     127.0.0.1:54332 - "POST /list_models HTTP/1.1" 200 OK
+2026-01-19 22:20:38 | INFO | controller | Register a new worker: http://127.0.0.1:40001
+2026-01-19 22:20:38 | INFO | controller | Register done: http://127.0.0.1:40001, {'model_names': ['SkyNova_4B'], 'speed': 1, 'queue_length': 0}
+2026-01-19 22:20:38 | INFO | stdout | INFO:     127.0.0.1:54348 - "POST /refresh_all_workers HTTP/1.1" 200 OK
+2026-01-19 22:20:38 | INFO | stdout | INFO:     127.0.0.1:54364 - "POST /list_models HTTP/1.1" 200 OK
+2026-01-19 22:20:38 | INFO | controller | names: ['http://127.0.0.1:40001'], queue_lens: [0.0], ret: http://127.0.0.1:40001
+2026-01-19 22:20:38 | INFO | stdout | INFO:     127.0.0.1:54372 - "POST /get_worker_address HTTP/1.1" 200 OK
+2026-01-19 22:20:38 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:20:38 | INFO | stdout | INFO:     127.0.0.1:54388 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:20:40 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:20:40 | INFO | stdout | INFO:     127.0.0.1:54400 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:20:43 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:20:43 | INFO | stdout | INFO:     127.0.0.1:54410 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:20:58 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:20:58 | INFO | stdout | INFO:     127.0.0.1:51778 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:21:13 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:21:13 | INFO | stdout | INFO:     127.0.0.1:47646 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:21:28 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:21:28 | INFO | stdout | INFO:     127.0.0.1:48682 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:21:28 | INFO | controller | Register a new worker: http://127.0.0.1:40001
+2026-01-19 22:21:28 | INFO | controller | Register done: http://127.0.0.1:40001, {'model_names': ['SkyNova_4B'], 'speed': 1, 'queue_length': 0}
+2026-01-19 22:21:28 | INFO | stdout | INFO:     127.0.0.1:48688 - "POST /refresh_all_workers HTTP/1.1" 200 OK
+2026-01-19 22:21:28 | INFO | stdout | INFO:     127.0.0.1:48700 - "POST /list_models HTTP/1.1" 200 OK
+2026-01-19 22:21:32 | INFO | controller | Register a new worker: http://127.0.0.1:40001
+2026-01-19 22:21:32 | INFO | controller | Register done: http://127.0.0.1:40001, {'model_names': ['SkyNova_4B'], 'speed': 1, 'queue_length': 0}
+2026-01-19 22:21:32 | INFO | stdout | INFO:     127.0.0.1:48712 - "POST /refresh_all_workers HTTP/1.1" 200 OK
+2026-01-19 22:21:32 | INFO | stdout | INFO:     127.0.0.1:48726 - "POST /list_models HTTP/1.1" 200 OK
+2026-01-19 22:21:32 | INFO | controller | Register a new worker: http://127.0.0.1:40001
+2026-01-19 22:21:32 | INFO | controller | Register done: http://127.0.0.1:40001, {'model_names': ['SkyNova_4B'], 'speed': 1, 'queue_length': 0}
+2026-01-19 22:21:32 | INFO | stdout | INFO:     127.0.0.1:48742 - "POST /refresh_all_workers HTTP/1.1" 200 OK
+2026-01-19 22:21:32 | INFO | stdout | INFO:     127.0.0.1:48748 - "POST /list_models HTTP/1.1" 200 OK
+2026-01-19 22:21:32 | INFO | controller | names: ['http://127.0.0.1:40001'], queue_lens: [0.0], ret: http://127.0.0.1:40001
+2026-01-19 22:21:32 | INFO | stdout | INFO:     127.0.0.1:48754 - "POST /get_worker_address HTTP/1.1" 200 OK
+2026-01-19 22:21:32 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:21:32 | INFO | stdout | INFO:     127.0.0.1:48770 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:21:33 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:21:33 | INFO | stdout | INFO:     127.0.0.1:48776 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:21:43 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:21:43 | INFO | stdout | INFO:     127.0.0.1:37722 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:21:58 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:21:58 | INFO | stdout | INFO:     127.0.0.1:46100 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:22:13 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:22:13 | INFO | stdout | INFO:     127.0.0.1:43260 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:22:28 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:22:28 | INFO | stdout | INFO:     127.0.0.1:34806 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:22:43 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:22:43 | INFO | stdout | INFO:     127.0.0.1:48808 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:22:58 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:22:58 | INFO | stdout | INFO:     127.0.0.1:54738 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:23:13 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:23:13 | INFO | stdout | INFO:     127.0.0.1:52150 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:23:28 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:23:28 | INFO | stdout | INFO:     127.0.0.1:50078 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:23:30 | INFO | controller | Register a new worker: http://127.0.0.1:40001
+2026-01-19 22:23:30 | INFO | controller | Register done: http://127.0.0.1:40001, {'model_names': ['SkyNova_4B'], 'speed': 1, 'queue_length': 0}
+2026-01-19 22:23:30 | INFO | stdout | INFO:     127.0.0.1:50082 - "POST /refresh_all_workers HTTP/1.1" 200 OK
+2026-01-19 22:23:30 | INFO | stdout | INFO:     127.0.0.1:50098 - "POST /list_models HTTP/1.1" 200 OK
+2026-01-19 22:23:30 | INFO | controller | names: ['http://127.0.0.1:40001'], queue_lens: [0.0], ret: http://127.0.0.1:40001
+2026-01-19 22:23:30 | INFO | stdout | INFO:     127.0.0.1:50114 - "POST /get_worker_address HTTP/1.1" 200 OK
+2026-01-19 22:23:30 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:23:30 | INFO | stdout | INFO:     127.0.0.1:50118 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:23:31 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:23:31 | INFO | stdout | INFO:     127.0.0.1:50122 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:23:43 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:23:43 | INFO | stdout | INFO:     127.0.0.1:40800 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:23:46 | INFO | controller | Register a new worker: http://127.0.0.1:40001
+2026-01-19 22:23:46 | INFO | controller | Register done: http://127.0.0.1:40001, {'model_names': ['SkyNova_4B'], 'speed': 1, 'queue_length': 0}
+2026-01-19 22:23:46 | INFO | stdout | INFO:     127.0.0.1:59130 - "POST /refresh_all_workers HTTP/1.1" 200 OK
+2026-01-19 22:23:46 | INFO | stdout | INFO:     127.0.0.1:59140 - "POST /list_models HTTP/1.1" 200 OK
+2026-01-19 22:23:46 | INFO | controller | names: ['http://127.0.0.1:40001'], queue_lens: [0.0], ret: http://127.0.0.1:40001
+2026-01-19 22:23:46 | INFO | stdout | INFO:     127.0.0.1:59154 - "POST /get_worker_address HTTP/1.1" 200 OK
+2026-01-19 22:23:46 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:23:46 | INFO | stdout | INFO:     127.0.0.1:59158 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:23:47 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:23:47 | INFO | stdout | INFO:     127.0.0.1:59174 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:23:52 | INFO | controller | Register a new worker: http://127.0.0.1:40001
+2026-01-19 22:23:52 | INFO | controller | Register done: http://127.0.0.1:40001, {'model_names': ['SkyNova_4B'], 'speed': 1, 'queue_length': 0}
+2026-01-19 22:23:52 | INFO | stdout | INFO:     127.0.0.1:59184 - "POST /refresh_all_workers HTTP/1.1" 200 OK
+2026-01-19 22:23:52 | INFO | stdout | INFO:     127.0.0.1:59188 - "POST /list_models HTTP/1.1" 200 OK
+2026-01-19 22:23:52 | INFO | controller | names: ['http://127.0.0.1:40001'], queue_lens: [0.0], ret: http://127.0.0.1:40001
+2026-01-19 22:23:52 | INFO | stdout | INFO:     127.0.0.1:59194 - "POST /get_worker_address HTTP/1.1" 200 OK
+2026-01-19 22:23:52 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:23:52 | INFO | stdout | INFO:     127.0.0.1:59196 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:23:53 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:23:53 | INFO | stdout | INFO:     127.0.0.1:59212 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:23:58 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:23:58 | INFO | stdout | INFO:     127.0.0.1:45936 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:24:13 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:24:13 | INFO | stdout | INFO:     127.0.0.1:50728 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:24:28 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:24:28 | INFO | stdout | INFO:     127.0.0.1:38988 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:24:43 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:24:43 | INFO | stdout | INFO:     127.0.0.1:57658 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:24:58 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:24:58 | INFO | stdout | INFO:     127.0.0.1:47478 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:25:13 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:25:13 | INFO | stdout | INFO:     127.0.0.1:53250 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:25:28 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:25:28 | INFO | stdout | INFO:     127.0.0.1:59776 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:25:43 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:25:43 | INFO | stdout | INFO:     127.0.0.1:51926 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:25:58 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:25:58 | INFO | stdout | INFO:     127.0.0.1:48036 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:26:13 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:26:13 | INFO | stdout | INFO:     127.0.0.1:34244 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:26:28 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:26:28 | INFO | stdout | INFO:     127.0.0.1:59082 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:26:43 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:26:43 | INFO | stdout | INFO:     127.0.0.1:46928 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:26:58 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:26:58 | INFO | stdout | INFO:     127.0.0.1:35574 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:27:13 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:27:13 | INFO | stdout | INFO:     127.0.0.1:39152 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:27:28 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:27:28 | INFO | stdout | INFO:     127.0.0.1:36982 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:27:43 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:27:43 | INFO | stdout | INFO:     127.0.0.1:51860 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:27:58 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:27:58 | INFO | stdout | INFO:     127.0.0.1:36186 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:28:13 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:28:13 | INFO | stdout | INFO:     127.0.0.1:42072 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:28:28 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:28:28 | INFO | stdout | INFO:     127.0.0.1:42606 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:28:43 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:28:43 | INFO | stdout | INFO:     127.0.0.1:35218 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:28:58 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:28:58 | INFO | stdout | INFO:     127.0.0.1:56268 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:29:13 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:29:13 | INFO | stdout | INFO:     127.0.0.1:33008 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:29:28 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:29:28 | INFO | stdout | INFO:     127.0.0.1:59452 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:29:43 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:29:43 | INFO | stdout | INFO:     127.0.0.1:49932 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:29:58 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:29:58 | INFO | stdout | INFO:     127.0.0.1:52278 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:30:13 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:30:13 | INFO | stdout | INFO:     127.0.0.1:50038 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:30:28 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:30:28 | INFO | stdout | INFO:     127.0.0.1:59478 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:30:43 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:30:43 | INFO | stdout | INFO:     127.0.0.1:50850 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:30:58 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:30:58 | INFO | stdout | INFO:     127.0.0.1:34880 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:31:13 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:31:13 | INFO | stdout | INFO:     127.0.0.1:47280 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:31:28 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:31:28 | INFO | stdout | INFO:     127.0.0.1:51894 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:31:43 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:31:43 | INFO | stdout | INFO:     127.0.0.1:38780 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:31:58 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:31:58 | INFO | stdout | INFO:     127.0.0.1:43422 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:32:13 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:32:13 | INFO | stdout | INFO:     127.0.0.1:38426 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:32:28 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:32:28 | INFO | stdout | INFO:     127.0.0.1:39096 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:32:44 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:32:44 | INFO | stdout | INFO:     127.0.0.1:42072 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:32:59 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:32:59 | INFO | stdout | INFO:     127.0.0.1:34224 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:33:14 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:33:14 | INFO | stdout | INFO:     127.0.0.1:44494 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:33:29 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:33:29 | INFO | stdout | INFO:     127.0.0.1:33376 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:33:44 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:33:44 | INFO | stdout | INFO:     127.0.0.1:42036 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:33:59 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:33:59 | INFO | stdout | INFO:     127.0.0.1:36510 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:34:14 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:34:14 | INFO | stdout | INFO:     127.0.0.1:60726 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:34:29 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:34:29 | INFO | stdout | INFO:     127.0.0.1:36802 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:34:44 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:34:44 | INFO | stdout | INFO:     127.0.0.1:50900 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:34:59 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:34:59 | INFO | stdout | INFO:     127.0.0.1:54696 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:35:14 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:35:14 | INFO | stdout | INFO:     127.0.0.1:34006 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:35:29 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:35:29 | INFO | stdout | INFO:     127.0.0.1:58358 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:35:44 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:35:44 | INFO | stdout | INFO:     127.0.0.1:38504 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:35:59 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:35:59 | INFO | stdout | INFO:     127.0.0.1:46964 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:36:14 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:36:14 | INFO | stdout | INFO:     127.0.0.1:34186 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:36:29 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:36:29 | INFO | stdout | INFO:     127.0.0.1:45854 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:36:44 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:36:44 | INFO | stdout | INFO:     127.0.0.1:48410 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:36:59 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:36:59 | INFO | stdout | INFO:     127.0.0.1:54432 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:37:14 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:37:14 | INFO | stdout | INFO:     127.0.0.1:42576 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:37:29 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:37:29 | INFO | stdout | INFO:     127.0.0.1:51828 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:37:44 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:37:44 | INFO | stdout | INFO:     127.0.0.1:36740 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:37:59 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:37:59 | INFO | stdout | INFO:     127.0.0.1:38230 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:38:14 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:38:14 | INFO | stdout | INFO:     127.0.0.1:50810 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:38:29 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:38:29 | INFO | stdout | INFO:     127.0.0.1:43586 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:38:44 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:38:44 | INFO | stdout | INFO:     127.0.0.1:37976 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:38:59 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:38:59 | INFO | stdout | INFO:     127.0.0.1:54450 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:39:14 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:39:14 | INFO | stdout | INFO:     127.0.0.1:53032 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:39:29 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:39:29 | INFO | stdout | INFO:     127.0.0.1:49032 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:39:44 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:39:44 | INFO | stdout | INFO:     127.0.0.1:50548 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:39:59 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:39:59 | INFO | stdout | INFO:     127.0.0.1:48742 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:40:14 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:40:14 | INFO | stdout | INFO:     127.0.0.1:39176 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:40:29 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:40:29 | INFO | stdout | INFO:     127.0.0.1:54340 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:40:44 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:40:44 | INFO | stdout | INFO:     127.0.0.1:51734 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:40:59 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:40:59 | INFO | stdout | INFO:     127.0.0.1:41512 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:41:14 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:41:14 | INFO | stdout | INFO:     127.0.0.1:39412 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:41:29 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:41:29 | INFO | stdout | INFO:     127.0.0.1:49082 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:41:44 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:41:44 | INFO | stdout | INFO:     127.0.0.1:54348 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:41:59 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:41:59 | INFO | stdout | INFO:     127.0.0.1:47200 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:42:14 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:42:14 | INFO | stdout | INFO:     127.0.0.1:40600 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:42:29 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:42:29 | INFO | stdout | INFO:     127.0.0.1:36776 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:42:44 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:42:44 | INFO | stdout | INFO:     127.0.0.1:41686 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:42:59 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:42:59 | INFO | stdout | INFO:     127.0.0.1:48692 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:43:14 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:43:14 | INFO | stdout | INFO:     127.0.0.1:45522 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:43:29 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:43:29 | INFO | stdout | INFO:     127.0.0.1:36122 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:43:44 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:43:44 | INFO | stdout | INFO:     127.0.0.1:42202 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:43:59 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:43:59 | INFO | stdout | INFO:     127.0.0.1:45714 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:44:15 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:44:15 | INFO | stdout | INFO:     127.0.0.1:33742 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:44:30 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:44:30 | INFO | stdout | INFO:     127.0.0.1:55990 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2026-01-19 22:44:45 | INFO | controller | Receive heart beat. http://127.0.0.1:40001
+2026-01-19 22:44:45 | INFO | stdout | INFO:     127.0.0.1:41914 - "POST /receive_heart_beat HTTP/1.1" 200 OK

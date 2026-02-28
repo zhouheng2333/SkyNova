@@ -1,0 +1,128 @@
+2026-01-19 19:31:22.682 "browser.enableCORS" is not a valid config option. If you previously had this config option set, it may have been removed.
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+
+  You can now view your Streamlit app in your browser.
+
+  URL: http://0.0.0.0:10003
+
+2026-01-19 19:36:18.107 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `width` parameter instead.
+2026-01-19 19:37:08.742 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `width` parameter instead.
+2026-01-19 19:37:08.787 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `width` parameter instead.
+2026-01-19 19:37:08.882 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `width` parameter instead.
+2026-01-19 21:04:30.166 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `width` parameter instead.
+2026-01-19 21:04:47.037 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `width` parameter instead.
+2026-01-19 21:04:47.081 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `width` parameter instead.
+2026-01-19 21:04:47.169 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `width` parameter instead.
+2026-01-19 21:18:53.256 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `width` parameter instead.
+2026-01-19 21:20:47.166 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `width` parameter instead.
+2026-01-19 21:21:11.099 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `width` parameter instead.
+2026-01-19 21:21:14.467 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `width` parameter instead.
+2026-01-19 21:21:14.500 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `width` parameter instead.
+2026-01-19 21:21:14.595 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `width` parameter instead.
+2026-01-19 22:07:40.658 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `width` parameter instead.
+2026-01-19 22:07:48.664 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `width` parameter instead.
+2026-01-19 22:07:48.701 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `width` parameter instead.
+2026-01-19 22:07:48.786 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `width` parameter instead.
+2026-01-19 22:10:25.612 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `width` parameter instead.
+2026-01-19 22:20:23.789 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `width` parameter instead.
+2026-01-19 22:20:38.508 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `width` parameter instead.
+2026-01-19 22:20:38.542 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `width` parameter instead.
+2026-01-19 22:20:38.632 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `width` parameter instead.
+Hello 
+ Model args: Namespace(controller_url='http://127.0.0.1:40000', sd_worker_url='http://127.0.0.1:39999', max_image_limit=4)
+[]
+Hello 
+ Model args: Namespace(controller_url='http://127.0.0.1:40000', sd_worker_url='http://127.0.0.1:39999', max_image_limit=4)
+[]
+Hello 
+ Model args: Namespace(controller_url='http://127.0.0.1:40000', sd_worker_url='http://127.0.0.1:39999', max_image_limit=4)
+Hello 
+ Model args: Namespace(controller_url='http://127.0.0.1:40000', sd_worker_url='http://127.0.0.1:39999', max_image_limit=4)
+http://127.0.0.1:40000/get_worker_address
+http://127.0.0.1:40001/worker_generate_stream
+Response <Response [200]>
+[{'role': 'user', 'content': 'Give me the location of <ref> tennis courts  </ref> at the bottom-left corner', 'image': [<PIL.Image.Image image mode=RGB size=663x578 at 0x7F9221F6AA70>], 'filenames': ['logs/serve_images/2026-01-19/72e795ff0097dec6796d47beaa9eb71c.jpg']}, {'role': 'assistant', 'content': '<box> [[19, 75, 20, 83, 0]] </box> '}]
+Hello 
+ Model args: Namespace(controller_url='http://127.0.0.1:40000', sd_worker_url='http://127.0.0.1:39999', max_image_limit=4)
+[]
+Hello 
+ Model args: Namespace(controller_url='http://127.0.0.1:40000', sd_worker_url='http://127.0.0.1:39999', max_image_limit=4)
+[]
+Hello 
+ Model args: Namespace(controller_url='http://127.0.0.1:40000', sd_worker_url='http://127.0.0.1:39999', max_image_limit=4)
+Hello 
+ Model args: Namespace(controller_url='http://127.0.0.1:40000', sd_worker_url='http://127.0.0.1:39999', max_image_limit=4)
+http://127.0.0.1:40000/get_worker_address
+http://127.0.0.1:40001/worker_generate_stream
+Response <Response [200]>
+[{'role': 'user', 'content': 'describe this image in the details', 'image': [<PIL.Image.Image image mode=RGB size=425x370 at 0x7F9221F6AE00>], 'filenames': ['logs/serve_images/2026-01-19/6cb51e04ce3bd2c3e40065103abea659.jpg']}, {'role': 'assistant', 'content': 'In the satellite image, there is   <ref> 1 large ship  </ref> [[47, 28, 76, 95, 0]] </box> located at bottom. ', 'image': []}]
+Hello 
+ Model args: Namespace(controller_url='http://127.0.0.1:40000', sd_worker_url='http://127.0.0.1:39999', max_image_limit=4)
+http://127.0.0.1:40000/get_worker_address
+http://127.0.0.1:40001/worker_generate_stream
+Response <Response [200]>
+[{'role': 'user', 'content': 'describe this image in the details', 'image': [<PIL.Image.Image image mode=RGB size=425x370 at 0x7F9221F6AE00>], 'filenames': ['logs/serve_images/2026-01-19/6cb51e04ce3bd2c3e40065103abea659.jpg']}, {'role': 'assistant', 'content': 'In the satellite image, there is   <ref> 1 large ship  </ref> [[47, 28, 76, 95, 0]] </box> located at bottom. ', 'image': []}, {'role': 'user', 'content': 'Give me the location of ship at bottom.', 'image': [], 'filenames': []}, {'role': 'assistant', 'content': 'In the satellite image, there is   <ref> 1 large ship  </ref> [[47, 28, 76, 95, 0]] </box> located at bottom. ', 'image': []}]
+Hello 
+ Model args: Namespace(controller_url='http://127.0.0.1:40000', sd_worker_url='http://127.0.0.1:39999', max_image_limit=4)
+http://127.0.0.1:40000/get_worker_address
+http://127.0.0.1:40001/worker_generate_stream
+Response <Response [200]>
+[{'role': 'user', 'content': 'describe this image in the details', 'image': [<PIL.Image.Image image mode=RGB size=425x370 at 0x7F9221F6AE00>], 'filenames': ['logs/serve_images/2026-01-19/6cb51e04ce3bd2c3e40065103abea659.jpg']}, {'role': 'assistant', 'content': 'In the satellite image, there is   <ref> 1 large ship  </ref> [[47, 28, 76, 95, 0]] </box> located at bottom. ', 'image': []}, {'role': 'user', 'content': 'Give me the location of ship at bottom.', 'image': [], 'filenames': []}, {'role': 'assistant', 'content': 'In the satellite image, there is   <ref> 1 large ship  </ref> [[47, 28, 76, 95, 0]] </box> located at bottom. ', 'image': []}, {'role': 'user', 'content': 'What is this place shown in the image?\n', 'image': [], 'filenames': []}, {'role': 'assistant', 'content': 'In the satellite image, there is   <ref> 1 large ship  <box> [[47, 28, 76, 95, 0]] </box> located at bottom. ', 'image': []}]
+Hello 
+ Model args: Namespace(controller_url='http://127.0.0.1:40000', sd_worker_url='http://127.0.0.1:39999', max_image_limit=4)
+[]
+Hello 
+ Model args: Namespace(controller_url='http://127.0.0.1:40000', sd_worker_url='http://127.0.0.1:39999', max_image_limit=4)
+[]
+Hello 
+ Model args: Namespace(controller_url='http://127.0.0.1:40000', sd_worker_url='http://127.0.0.1:39999', max_image_limit=4)
+Hello 
+ Model args: Namespace(controller_url='http://127.0.0.1:40000', sd_worker_url='http://127.0.0.1:39999', max_image_limit=4)
+http://127.0.0.1:40000/get_worker_address
+http://127.0.0.1:40001/worker_generate_stream
+Response <Response [200]>
+[{'role': 'user', 'content': 'What is this place shown in the image?\n', 'image': [<PIL.Image.Image image mode=RGB size=425x370 at 0x7F91F9A4AAD0>], 'filenames': ['logs/serve_images/2026-01-19/6cb51e04ce3bd2c3e40065103abea659.jpg']}, {'role': 'assistant', 'content': 'This is a forest. '}]
+Hello 
+ Model args: Namespace(controller_url='http://127.0.0.1:40000', sd_worker_url='http://127.0.0.1:39999', max_image_limit=4)
+[]
+Hello 
+ Model args: Namespace(controller_url='http://127.0.0.1:40000', sd_worker_url='http://127.0.0.1:39999', max_image_limit=4)
+[]
+Hello 
+ Model args: Namespace(controller_url='http://127.0.0.1:40000', sd_worker_url='http://127.0.0.1:39999', max_image_limit=4)
+Hello 
+ Model args: Namespace(controller_url='http://127.0.0.1:40000', sd_worker_url='http://127.0.0.1:39999', max_image_limit=4)
+http://127.0.0.1:40000/get_worker_address
+http://127.0.0.1:40001/worker_generate_stream
+Response <Response [200]>
+[{'role': 'user', 'content': 'describe this image in the details', 'image': [<PIL.Image.Image image mode=RGB size=425x370 at 0x7F91F984B5B0>], 'filenames': ['logs/serve_images/2026-01-19/d921a84a5b91fcc16eae9c1cafc72ef2.jpg']}, {'role': 'assistant', 'content': 'In the satellite image, there is   <ref> 1 small dam  </ref> [[58, 46, 59, 50, 0]] </box> located at center,   <ref> 1 medium dam </ref> [[73, 82, 80, 85, 0]] </box> located at bottom right. ', 'image': []}]
+Hello 
+ Model args: Namespace(controller_url='http://127.0.0.1:40000', sd_worker_url='http://127.0.0.1:39999', max_image_limit=4)
+http://127.0.0.1:40000/get_worker_address
+http://127.0.0.1:40001/worker_generate_stream
+Response <Response [200]>
+[{'role': 'user', 'content': 'describe this image in the details', 'image': [<PIL.Image.Image image mode=RGB size=425x370 at 0x7F91F984B5B0>], 'filenames': ['logs/serve_images/2026-01-19/d921a84a5b91fcc16eae9c1cafc72ef2.jpg']}, {'role': 'assistant', 'content': 'In the satellite image, there is   <ref> 1 small dam  </ref> [[58, 46, 59, 50, 0]] </box> located at center,   <ref> 1 medium dam </ref> [[73, 82, 80, 85, 0]] </box> located at bottom right. ', 'image': []}, {'role': 'user', 'content': 'Is there a pond in the image?\n', 'image': [], 'filenames': []}, {'role': 'assistant', 'content': 'Yes, there is a pond in the image. '}]
+Hello 
+ Model args: Namespace(controller_url='http://127.0.0.1:40000', sd_worker_url='http://127.0.0.1:39999', max_image_limit=4)
+[]
+Hello 
+ Model args: Namespace(controller_url='http://127.0.0.1:40000', sd_worker_url='http://127.0.0.1:39999', max_image_limit=4)
+[]
+Hello 
+ Model args: Namespace(controller_url='http://127.0.0.1:40000', sd_worker_url='http://127.0.0.1:39999', max_image_limit=4)
+Hello 
+ Model args: Namespace(controller_url='http://127.0.0.1:40000', sd_worker_url='http://127.0.0.1:39999', max_image_limit=4)
+http://127.0.0.1:40000/get_worker_address
+http://127.0.0.1:40001/worker_generate_stream
+Response <Response [200]>
+[{'role': 'user', 'content': 'Is there a airport in the image?\n', 'image': [<PIL.Image.Image image mode=RGB size=464x370 at 0x7F91F98D3FD0>], 'filenames': ['logs/serve_images/2026-01-19/a452def86fd17b69dbb63ee3607113c4.jpg']}, {'role': 'assistant', 'content': 'No, there is no airport in the image. '}]
+Hello 
+ Model args: Namespace(controller_url='http://127.0.0.1:40000', sd_worker_url='http://127.0.0.1:39999', max_image_limit=4)
+[]
+Hello 
+ Model args: 2026-01-19 22:21:32.433 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `width` parameter instead.
+2026-01-19 22:23:30.894 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `width` parameter instead.
+2026-01-19 22:23:46.783 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `width` parameter instead.
+2026-01-19 22:23:52.705 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `width` parameter instead.

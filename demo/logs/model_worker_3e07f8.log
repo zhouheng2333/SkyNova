@@ -1,0 +1,60 @@
+2026-01-18 23:25:48 | INFO | model_worker | args: Namespace(host='0.0.0.0', port=40001, worker_address='http://127.0.0.1:40001', controller_address='http://127.0.0.1:40000', model_path='/root/autodl-tmp/EarthDial/checkpoints/SkyNova_4B', model_name=None, device='cuda', limit_model_concurrency=5, stream_interval=1, load_8bit=False)
+2026-01-18 23:25:48 | INFO | model_worker | Loading the model SkyNova_4B on worker 3e07f8 ...
+2026-01-18 23:25:48 | WARNING | transformers.tokenization_utils_base | Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+2026-01-18 23:25:48 | WARNING | transformers.tokenization_utils_base | Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+2026-01-18 23:25:51 | INFO | stdout | FlashAttention is not installed.
+2026-01-18 23:25:51 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2026-01-18 23:25:51 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2026-01-18 23:25:51 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2026-01-18 23:25:51 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2026-01-18 23:25:51 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2026-01-18 23:25:51 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2026-01-18 23:25:51 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2026-01-18 23:25:51 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2026-01-18 23:25:51 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2026-01-18 23:25:51 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2026-01-18 23:25:51 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2026-01-18 23:25:51 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2026-01-18 23:25:51 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2026-01-18 23:25:51 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2026-01-18 23:25:51 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2026-01-18 23:25:51 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2026-01-18 23:25:51 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2026-01-18 23:25:51 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2026-01-18 23:25:51 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2026-01-18 23:25:51 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2026-01-18 23:25:51 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2026-01-18 23:25:51 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2026-01-18 23:25:51 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2026-01-18 23:25:51 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2026-01-18 23:25:51 | ERROR | stderr | Loading checkpoint shards:   0%|                                                                                                                                                                         | 0/2 [00:00<?, ?it/s]
+2026-01-18 23:25:52 | ERROR | stderr | Loading checkpoint shards:  50%|████████████████████████████████████████████████████████████████████████████████▌                                                                                | 1/2 [00:01<00:01,  1.32s/it]
+2026-01-18 23:25:53 | ERROR | stderr | Loading checkpoint shards: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2/2 [00:02<00:00,  1.04s/it]
+2026-01-18 23:25:53 | ERROR | stderr | Loading checkpoint shards: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2/2 [00:02<00:00,  1.08s/it]
+2026-01-18 23:25:53 | ERROR | stderr | 
+2026-01-18 23:25:55 | INFO | model_worker | Register to controller
+2026-01-18 23:25:55 | ERROR | stderr | INFO:     Started server process [1772]
+2026-01-18 23:25:55 | ERROR | stderr | INFO:     Waiting for application startup.
+2026-01-18 23:25:55 | ERROR | stderr | INFO:     Application startup complete.
+2026-01-18 23:25:55 | ERROR | stderr | INFO:     Uvicorn running on http://0.0.0.0:40001 (Press CTRL+C to quit)
+2026-01-18 23:26:10 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: None. global_counter: 0
+2026-01-18 23:26:25 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: None. global_counter: 0
+2026-01-18 23:26:40 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: None. global_counter: 0
+2026-01-18 23:26:55 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: None. global_counter: 0
+2026-01-18 23:27:11 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: None. global_counter: 0
+2026-01-18 23:27:26 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: None. global_counter: 0
+2026-01-18 23:27:41 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: None. global_counter: 0
+2026-01-18 23:27:56 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: None. global_counter: 0
+2026-01-18 23:28:11 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: None. global_counter: 0
+2026-01-18 23:28:26 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: None. global_counter: 0
+2026-01-18 23:28:41 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: None. global_counter: 0
+2026-01-18 23:28:56 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: None. global_counter: 0
+2026-01-18 23:29:11 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: None. global_counter: 0
+2026-01-18 23:29:26 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: None. global_counter: 0
+2026-01-18 23:29:41 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: None. global_counter: 0
+2026-01-18 23:29:56 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: None. global_counter: 0
+2026-01-18 23:30:11 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: None. global_counter: 0
+2026-01-18 23:30:13 | ERROR | stderr | INFO:     Shutting down
+2026-01-18 23:30:13 | ERROR | stderr | INFO:     Waiting for application shutdown.
+2026-01-18 23:30:13 | ERROR | stderr | INFO:     Application shutdown complete.
+2026-01-18 23:30:13 | ERROR | stderr | INFO:     Finished server process [1772]

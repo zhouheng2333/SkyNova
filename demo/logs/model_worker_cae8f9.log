@@ -1,0 +1,138 @@
+2026-01-19 13:22:04 | INFO | model_worker | args: Namespace(host='0.0.0.0', port=40001, worker_address='http://127.0.0.1:40001', controller_address='http://127.0.0.1:40000', model_path='/root/autodl-tmp/EarthDial/checkpoints/SkyNova_4B', model_name=None, device='cuda', limit_model_concurrency=5, stream_interval=1, load_8bit=False)
+2026-01-19 13:22:04 | INFO | model_worker | Loading the model SkyNova_4B on worker cae8f9 ...
+2026-01-19 13:22:04 | WARNING | transformers.tokenization_utils_base | Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+2026-01-19 13:22:04 | WARNING | transformers.tokenization_utils_base | Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+2026-01-19 13:22:06 | INFO | stdout | FlashAttention is not installed.
+2026-01-19 13:22:06 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2026-01-19 13:22:06 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2026-01-19 13:22:06 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2026-01-19 13:22:06 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2026-01-19 13:22:06 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2026-01-19 13:22:06 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2026-01-19 13:22:06 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2026-01-19 13:22:06 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2026-01-19 13:22:06 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2026-01-19 13:22:06 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2026-01-19 13:22:06 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2026-01-19 13:22:06 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2026-01-19 13:22:06 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2026-01-19 13:22:06 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2026-01-19 13:22:06 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2026-01-19 13:22:06 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2026-01-19 13:22:06 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2026-01-19 13:22:06 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2026-01-19 13:22:06 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2026-01-19 13:22:06 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2026-01-19 13:22:06 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2026-01-19 13:22:06 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2026-01-19 13:22:06 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2026-01-19 13:22:06 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2026-01-19 13:22:06 | ERROR | stderr | Loading checkpoint shards:   0%|                                                                                        | 0/2 [00:00<?, ?it/s]
+2026-01-19 13:22:07 | ERROR | stderr | Loading checkpoint shards:  50%|████████████████████████████████████████                                        | 1/2 [00:00<00:00,  1.37it/s]
+2026-01-19 13:22:07 | ERROR | stderr | Loading checkpoint shards: 100%|████████████████████████████████████████████████████████████████████████████████| 2/2 [00:01<00:00,  1.78it/s]
+2026-01-19 13:22:07 | ERROR | stderr | Loading checkpoint shards: 100%|████████████████████████████████████████████████████████████████████████████████| 2/2 [00:01<00:00,  1.70it/s]
+2026-01-19 13:22:07 | ERROR | stderr | 
+2026-01-19 13:22:09 | INFO | model_worker | Register to controller
+2026-01-19 13:22:09 | ERROR | stderr | INFO:     Started server process [3787]
+2026-01-19 13:22:09 | ERROR | stderr | INFO:     Waiting for application startup.
+2026-01-19 13:22:09 | ERROR | stderr | INFO:     Application startup complete.
+2026-01-19 13:22:09 | ERROR | stderr | INFO:     Uvicorn running on http://0.0.0.0:40001 (Press CTRL+C to quit)
+2026-01-19 13:22:17 | INFO | stdout | INFO:     127.0.0.1:43372 - "POST /worker_get_status HTTP/1.1" 200 OK
+2026-01-19 13:22:24 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: None. global_counter: 0
+2026-01-19 13:22:39 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: None. global_counter: 0
+2026-01-19 13:22:45 | INFO | stdout | INFO:     127.0.0.1:57828 - "POST /worker_get_status HTTP/1.1" 200 OK
+2026-01-19 13:22:54 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: None. global_counter: 0
+2026-01-19 13:23:01 | INFO | stdout | INFO:     127.0.0.1:49834 - "POST /worker_get_status HTTP/1.1" 200 OK
+2026-01-19 13:23:01 | INFO | stdout | INFO:     127.0.0.1:49840 - "POST /worker_get_status HTTP/1.1" 200 OK
+2026-01-19 13:23:01 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: Semaphore(value=4, locked=False). global_counter: 1
+2026-01-19 13:23:01 | INFO | stdout | INFO:     127.0.0.1:49852 - "POST /worker_generate_stream HTTP/1.1" 200 OK
+2026-01-19 13:23:01 | INFO | model_worker | Split images to torch.Size([1, 3, 448, 448])
+2026-01-19 13:23:01 | INFO | model_worker | Generation config: {'num_beams': 1, 'max_new_tokens': 1024, 'do_sample': True, 'temperature': 0.7, 'repetition_penalty': 1.1, 'max_length': 8192, 'top_p': 0.95, 'streamer': <transformers.generation.streamers.TextIteratorStreamer object at 0x7f7e529b9690>}
+2026-01-19 13:23:01 | WARNING | transformers.generation.utils | Both `max_new_tokens` (=1024) and `max_length`(=8192) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2026-01-19 13:23:02 | INFO | model_worker | max_input_tile_list: [12], history: [], question: <image>
+Is it harbor or urban area?, answer: Yes, it is a harbor. 
+2026-01-19 13:23:02 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: Semaphore(value=5, locked=False). global_counter: 1
+2026-01-19 13:23:09 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: Semaphore(value=5, locked=False). global_counter: 1
+2026-01-19 13:23:24 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: Semaphore(value=5, locked=False). global_counter: 1
+2026-01-19 13:23:39 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: Semaphore(value=5, locked=False). global_counter: 1
+2026-01-19 13:23:54 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: Semaphore(value=5, locked=False). global_counter: 1
+2026-01-19 13:24:09 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: Semaphore(value=5, locked=False). global_counter: 1
+2026-01-19 13:24:24 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: Semaphore(value=5, locked=False). global_counter: 1
+2026-01-19 13:24:39 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: Semaphore(value=5, locked=False). global_counter: 1
+2026-01-19 13:24:54 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: Semaphore(value=5, locked=False). global_counter: 1
+2026-01-19 13:25:09 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: Semaphore(value=5, locked=False). global_counter: 1
+2026-01-19 13:25:24 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: Semaphore(value=5, locked=False). global_counter: 1
+2026-01-19 13:25:39 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: Semaphore(value=5, locked=False). global_counter: 1
+2026-01-19 13:25:54 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: Semaphore(value=5, locked=False). global_counter: 1
+2026-01-19 13:26:09 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: Semaphore(value=5, locked=False). global_counter: 1
+2026-01-19 13:26:24 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: Semaphore(value=5, locked=False). global_counter: 1
+2026-01-19 13:26:29 | INFO | stdout | INFO:     127.0.0.1:38402 - "POST /worker_get_status HTTP/1.1" 200 OK
+2026-01-19 13:26:39 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: Semaphore(value=5, locked=False). global_counter: 1
+2026-01-19 13:26:54 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: Semaphore(value=5, locked=False). global_counter: 1
+2026-01-19 13:27:09 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: Semaphore(value=5, locked=False). global_counter: 1
+2026-01-19 13:27:24 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: Semaphore(value=5, locked=False). global_counter: 1
+2026-01-19 13:27:39 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: Semaphore(value=5, locked=False). global_counter: 1
+2026-01-19 13:27:54 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: Semaphore(value=5, locked=False). global_counter: 1
+2026-01-19 13:28:09 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: Semaphore(value=5, locked=False). global_counter: 1
+2026-01-19 13:28:24 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: Semaphore(value=5, locked=False). global_counter: 1
+2026-01-19 13:28:40 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: Semaphore(value=5, locked=False). global_counter: 1
+2026-01-19 13:28:55 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: Semaphore(value=5, locked=False). global_counter: 1
+2026-01-19 13:29:10 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: Semaphore(value=5, locked=False). global_counter: 1
+2026-01-19 13:29:25 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: Semaphore(value=5, locked=False). global_counter: 1
+2026-01-19 13:29:40 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: Semaphore(value=5, locked=False). global_counter: 1
+2026-01-19 13:29:55 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: Semaphore(value=5, locked=False). global_counter: 1
+2026-01-19 13:30:04 | INFO | stdout | INFO:     127.0.0.1:49370 - "POST /worker_get_status HTTP/1.1" 200 OK
+2026-01-19 13:30:04 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: Semaphore(value=4, locked=False). global_counter: 2
+2026-01-19 13:30:04 | INFO | stdout | INFO:     127.0.0.1:49384 - "POST /worker_generate_stream HTTP/1.1" 200 OK
+2026-01-19 13:30:04 | INFO | model_worker | Generation config: {'num_beams': 1, 'max_new_tokens': 1024, 'do_sample': True, 'temperature': 0.7, 'repetition_penalty': 1.1, 'max_length': 8192, 'top_p': 0.95, 'streamer': <transformers.generation.streamers.TextIteratorStreamer object at 0x7f7e52a0e740>}
+2026-01-19 13:30:04 | WARNING | transformers.generation.utils | Both `max_new_tokens` (=1024) and `max_length`(=8192) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2026-01-19 13:30:05 | INFO | model_worker | max_input_tile_list: [], history: [], question: Why do flat water bodies typically appear as dark regions in SAR images?, answer: Flat water bodies typically appear as dark regions in SAR images. 
+2026-01-19 13:30:05 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: Semaphore(value=5, locked=False). global_counter: 2
+2026-01-19 13:30:10 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: Semaphore(value=5, locked=False). global_counter: 2
+2026-01-19 13:30:25 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: Semaphore(value=5, locked=False). global_counter: 2
+2026-01-19 13:30:37 | INFO | stdout | INFO:     127.0.0.1:34686 - "POST /worker_get_status HTTP/1.1" 200 OK
+2026-01-19 13:30:37 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: Semaphore(value=4, locked=False). global_counter: 3
+2026-01-19 13:30:37 | INFO | stdout | INFO:     127.0.0.1:34698 - "POST /worker_generate_stream HTTP/1.1" 200 OK
+2026-01-19 13:30:37 | INFO | model_worker | Generation config: {'num_beams': 1, 'max_new_tokens': 1024, 'do_sample': True, 'temperature': 0.7, 'repetition_penalty': 1.1, 'max_length': 8192, 'top_p': 0.95, 'streamer': <transformers.generation.streamers.TextIteratorStreamer object at 0x7f7e52a0e170>}
+2026-01-19 13:30:37 | WARNING | transformers.generation.utils | Both `max_new_tokens` (=1024) and `max_length`(=8192) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2026-01-19 13:30:37 | INFO | model_worker | max_input_tile_list: [], history: [], question: Why do flat water bodies typically appear as dark regions in SAR images?, answer: Bare soil 
+2026-01-19 13:30:37 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: Semaphore(value=5, locked=False). global_counter: 3
+2026-01-19 13:30:40 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: Semaphore(value=5, locked=False). global_counter: 3
+2026-01-19 13:30:49 | INFO | stdout | INFO:     127.0.0.1:44832 - "POST /worker_get_status HTTP/1.1" 200 OK
+2026-01-19 13:30:49 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: Semaphore(value=4, locked=False). global_counter: 4
+2026-01-19 13:30:49 | INFO | stdout | INFO:     127.0.0.1:44836 - "POST /worker_generate_stream HTTP/1.1" 200 OK
+2026-01-19 13:30:49 | INFO | model_worker | Generation config: {'num_beams': 1, 'max_new_tokens': 1024, 'do_sample': True, 'temperature': 0.7, 'repetition_penalty': 1.1, 'max_length': 8192, 'top_p': 0.95, 'streamer': <transformers.generation.streamers.TextIteratorStreamer object at 0x7f7e52a0e590>}
+2026-01-19 13:30:49 | WARNING | transformers.generation.utils | Both `max_new_tokens` (=1024) and `max_length`(=8192) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+2026-01-19 13:30:52 | INFO | model_worker | max_input_tile_list: [], history: [], question: Why do flat water bodies typically appear as dark regions in SAR images?, answer: Flat water bodies appear as dark regions in SAR images because of the high attenuation of the satellite signals. The sea is a large, water-covered area, and the satellite's signal is absorbed, causing it to appear in a lower left of the image. 
+2026-01-19 13:30:52 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: Semaphore(value=5, locked=False). global_counter: 4
+2026-01-19 13:30:55 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: Semaphore(value=5, locked=False). global_counter: 4
+2026-01-19 13:31:10 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: Semaphore(value=5, locked=False). global_counter: 4
+2026-01-19 13:31:25 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: Semaphore(value=5, locked=False). global_counter: 4
+2026-01-19 13:31:40 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: Semaphore(value=5, locked=False). global_counter: 4
+2026-01-19 13:31:55 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: Semaphore(value=5, locked=False). global_counter: 4
+2026-01-19 13:32:10 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: Semaphore(value=5, locked=False). global_counter: 4
+2026-01-19 13:32:25 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: Semaphore(value=5, locked=False). global_counter: 4
+2026-01-19 13:32:40 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: Semaphore(value=5, locked=False). global_counter: 4
+2026-01-19 13:32:55 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: Semaphore(value=5, locked=False). global_counter: 4
+2026-01-19 13:33:10 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: Semaphore(value=5, locked=False). global_counter: 4
+2026-01-19 13:33:25 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: Semaphore(value=5, locked=False). global_counter: 4
+2026-01-19 13:33:40 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: Semaphore(value=5, locked=False). global_counter: 4
+2026-01-19 13:33:55 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: Semaphore(value=5, locked=False). global_counter: 4
+2026-01-19 13:34:10 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: Semaphore(value=5, locked=False). global_counter: 4
+2026-01-19 13:34:25 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: Semaphore(value=5, locked=False). global_counter: 4
+2026-01-19 13:34:40 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: Semaphore(value=5, locked=False). global_counter: 4
+2026-01-19 13:34:55 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: Semaphore(value=5, locked=False). global_counter: 4
+2026-01-19 13:35:10 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: Semaphore(value=5, locked=False). global_counter: 4
+2026-01-19 13:35:25 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: Semaphore(value=5, locked=False). global_counter: 4
+2026-01-19 13:35:40 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: Semaphore(value=5, locked=False). global_counter: 4
+2026-01-19 13:35:55 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: Semaphore(value=5, locked=False). global_counter: 4
+2026-01-19 13:36:10 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: Semaphore(value=5, locked=False). global_counter: 4
+2026-01-19 13:36:25 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: Semaphore(value=5, locked=False). global_counter: 4
+2026-01-19 13:36:40 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: Semaphore(value=5, locked=False). global_counter: 4
+2026-01-19 13:36:55 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: Semaphore(value=5, locked=False). global_counter: 4
+2026-01-19 13:37:10 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: Semaphore(value=5, locked=False). global_counter: 4
+2026-01-19 13:37:25 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: Semaphore(value=5, locked=False). global_counter: 4
+2026-01-19 13:37:40 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: Semaphore(value=5, locked=False). global_counter: 4
+2026-01-19 13:37:55 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: Semaphore(value=5, locked=False). global_counter: 4
+2026-01-19 13:38:10 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: Semaphore(value=5, locked=False). global_counter: 4
+2026-01-19 13:38:25 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: Semaphore(value=5, locked=False). global_counter: 4

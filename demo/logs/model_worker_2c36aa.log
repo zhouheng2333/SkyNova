@@ -1,0 +1,42 @@
+2025-12-24 16:38:54 | INFO | model_worker | args: Namespace(host='0.0.0.0', port=40001, worker_address='http://127.0.0.1:40001', controller_address='http://127.0.0.1:40000', model_path='/root/autodl-tmp/EarthDial/checkpoints/SkyNova_4B', model_name=None, device='cuda', limit_model_concurrency=5, stream_interval=1, load_8bit=False)
+2025-12-24 16:38:54 | INFO | model_worker | Loading the model SkyNova_4B on worker 2c36aa ...
+2025-12-24 16:38:54 | WARNING | transformers.tokenization_utils_base | Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+2025-12-24 16:38:54 | WARNING | transformers.tokenization_utils_base | Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+2025-12-24 16:38:56 | INFO | stdout | FlashAttention is not installed.
+2025-12-24 16:38:56 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2025-12-24 16:38:56 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2025-12-24 16:38:56 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2025-12-24 16:38:56 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2025-12-24 16:38:56 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2025-12-24 16:38:56 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2025-12-24 16:38:56 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2025-12-24 16:38:56 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2025-12-24 16:38:56 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2025-12-24 16:38:56 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2025-12-24 16:38:56 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2025-12-24 16:38:56 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2025-12-24 16:38:56 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2025-12-24 16:38:56 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2025-12-24 16:38:56 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2025-12-24 16:38:56 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2025-12-24 16:38:56 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2025-12-24 16:38:56 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2025-12-24 16:38:56 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2025-12-24 16:38:56 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2025-12-24 16:38:56 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2025-12-24 16:38:56 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2025-12-24 16:38:56 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2025-12-24 16:38:56 | INFO | stdout | Warning: Flash Attention is not available, use_flash_attn is set to False.
+2025-12-24 16:38:56 | ERROR | stderr | Loading checkpoint shards:   0%|                                                                                                                                                                         | 0/2 [00:00<?, ?it/s]
+2025-12-24 16:38:57 | ERROR | stderr | Loading checkpoint shards:  50%|████████████████████████████████████████████████████████████████████████████████▌                                                                                | 1/2 [00:00<00:00,  1.11it/s]
+2025-12-24 16:38:58 | ERROR | stderr | Loading checkpoint shards: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2/2 [00:01<00:00,  1.46it/s]
+2025-12-24 16:38:58 | ERROR | stderr | Loading checkpoint shards: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2/2 [00:01<00:00,  1.40it/s]
+2025-12-24 16:38:58 | ERROR | stderr | 
+2025-12-24 16:38:59 | INFO | model_worker | Register to controller
+2025-12-24 16:38:59 | ERROR | stderr | INFO:     Started server process [32572]
+2025-12-24 16:38:59 | ERROR | stderr | INFO:     Waiting for application startup.
+2025-12-24 16:38:59 | ERROR | stderr | INFO:     Application startup complete.
+2025-12-24 16:38:59 | ERROR | stderr | INFO:     Uvicorn running on http://0.0.0.0:40001 (Press CTRL+C to quit)
+2025-12-24 16:39:02 | INFO | stdout | INFO:     127.0.0.1:50652 - "POST /worker_get_status HTTP/1.1" 200 OK
+2025-12-24 16:39:14 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: None. global_counter: 0
+2025-12-24 16:39:29 | INFO | model_worker | Send heart beat. Models: ['SkyNova_4B']. Semaphore: None. global_counter: 0
