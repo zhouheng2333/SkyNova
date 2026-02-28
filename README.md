@@ -6,10 +6,6 @@
 
 #### **the School of Computer Science and Engineering, Nanjing University of Science and Technology**
 
-[![paper]()
-[![hf_dataset]()
-[![hf_model]()
-
 ---
 
 ## SkyNova: Overview
@@ -55,7 +51,7 @@ pip install -e .
 
 The SkyNova models are available on the Hugging Face Hub.
 
-[SkyNova_4B]()
+[SkyNova_4B](https://huggingface.co/MylesZhou/SkyNova)
 
 ---
 Please check out our Model for all public checkpoints, and check demo section.
