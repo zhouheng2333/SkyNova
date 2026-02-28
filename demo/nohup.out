@@ -1,0 +1,8 @@
+Usage: streamlit run [OPTIONS] [TARGET] [ARGS]...
+Try 'streamlit run --help' for help.
+
+Error: No such option: --server.addr (Possible options: --server.address, --server.headless, --server.port)
+Usage: streamlit run [OPTIONS] [TARGET] [ARGS]...
+Try 'streamlit run --help' for help.
+
+Error: No such option: --server.add (Possible options: --server.address, --server.headless, --server.port)
