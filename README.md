@@ -1,172 +1,73 @@
-# SkyNova
-SkyNova: Mastering Multi-Task Remote Sensing with Mixture of LoRA Experts
 
-<!-- PROJECT SHIELDS -->
+# SkyNova: Mastering Multi-Task Remote Sensing with Mixture of LoRA Experts
 
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+#### Heng Zhou , Quanjun Zhang , Junjie Huang , Jingzhou Chenand Liang Xiao
+\* Equally contributing first authors
 
-<!-- PROJECT LOGO -->
-<br />
+#### **the School of Computer Science and Engineering, Nanjing University of Science and Technology**
 
-<p align="center">
-  <a href="https://github.com/shaojintian/Best_README_template/">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
+[![paper]()
+[![hf_dataset]()
+[![hf_model]()
 
-  <h3 align="center">"完美的"README模板</h3>
-  <p align="center">
-    一个"完美的"README模板去快速开始你的项目！
-    <br />
-    <a href="https://github.com/shaojintian/Best_README_template"><strong>探索本项目的文档 »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/shaojintian/Best_README_template">查看Demo</a>
-    ·
-    <a href="https://github.com/shaojintian/Best_README_template/issues">报告Bug</a>
-    ·
-    <a href="https://github.com/shaojintian/Best_README_template/issues">提出新特性</a>
-  </p>
+---
 
-</p>
+## SkyNova: Overview
 
+Current remote sensing vision-language models are mostly derived by fine-tuning general-purpose VLMs. However, due to the low proportion and limited coverage of remote sensing expertise in general models’ pre-training corpora, these models underperform on tasks requiring specialized knowledge. To address this, we first propose RSCBQA, the first closed-book question answering benchmark tailored for remote sensing. Its training set injects structured domain knowledge to enhance models’ grasp of core concepts, while the test set evaluates factual knowledge mastery. We further propose SkyNova, a multi-task RS-VLM framework based on Mixture-of-LoRA-Experts achitecture, enabling efficient multi-task adaptation without sacrificing domain knowledge. It freezes the general VLM backbone to retain foundational knowledge and adopts lightweight, plug-and-play LoRA experts for parameter-efficient adaptation. To boost expert diversity and mitigate expert collapse, we design a Top-k entropy balancing loss, which maximizes the entropy of Top-k expert activation weights to promote balanced expert participation. Notably, we establish a four-stage progressive training strategy, including domain knowledge injection, task-supervised fine-tuning, preference optimization, and expert refinement, to guide the model toward professional, factually consistent remote sensing comprehension. We also release SkyCorpus, a 10-million-sample large-scale multimodal remote sensing instruction dataset, supporting full-process instruction tuning and domain knowledge internalization. Extensive experiments show SkyNova achieves state-of-the-art performance on most remote sensing benchmarks, with significant advantages over existing RS-VLMs on RSCBQA.
 
- 本篇README.md面向开发者
- 
-## 目录
+---
+## Contents
+- [Install](#install)
+- [Model Weights and Demo]()
+- [Dataset]()
 
-- [上手指南](#上手指南)
-  - [开发前的配置要求](#开发前的配置要求)
-  - [安装步骤](#安装步骤)
-- [文件目录说明](#文件目录说明)
-- [开发的架构](#开发的架构)
-- [部署](#部署)
-- [使用到的框架](#使用到的框架)
-- [贡献者](#贡献者)
-  - [如何参与开源项目](#如何参与开源项目)
-- [版本控制](#版本控制)
-- [作者](#作者)
-- [鸣谢](#鸣谢)
+## Install
 
-### 上手指南
-
-请将所有链接中的“shaojintian/Best_README_template”改为“your_github_name/your_repository”
-
-
-
-###### 开发前的配置要求
-
-1. xxxxx x.x.x
-2. xxxxx x.x.x
-
-###### **安装步骤**
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-
-```sh
-git clone https://github.com/shaojintian/Best_README_template.git
+1. Clone this repository and navigate to SkyNova folder
+```bash
+git clone https://github.com/zhouheng/SkyNova.git
+cd SkyNova
 ```
 
-### 文件目录说明
-eg:
-
-```
-filetree 
-├── ARCHITECTURE.md
-├── LICENSE.txt
-├── README.md
-├── /account/
-├── /bbs/
-├── /docs/
-│  ├── /rules/
-│  │  ├── backend.txt
-│  │  └── frontend.txt
-├── manage.py
-├── /oa/
-├── /static/
-├── /templates/
-├── useless.md
-└── /util/
-
+2. Install Package
+```Shell
+conda create -n SkyNova python=3.9 -y
+conda activate SkyNova
+pip install --upgrade pip  
+pip install -e .
 ```
 
+3. Install additional packages for training cases
+```
+pip install flash-attn==2.3.6 --no-build-isolation
+```
+
+### Upgrade to latest code base
+
+```Shell
+git pull
+pip uninstall transformers
+pip install -e .
+```
+
+##  Weights and Demo
+
+The SkyNova models are available on the Hugging Face Hub.
+
+[SkyNova_4B]()
+
+---
+Please check out our Model for all public checkpoints, and check demo section.
+```bash
+bash demo.sh
+```
+---
+## Dataset
+Coming soon 
+---
+
+## 🙏 Acknowledgement
+the School of Computer Science and Engineering, Nanjing University of Science and Technology for their collaborative support and guidance.
 
 
-
-
-### 开发的架构 
-
-请阅读[ARCHITECTURE.md](https://github.com/shaojintian/Best_README_template/blob/master/ARCHITECTURE.md) 查阅为该项目的架构。
-
-### 部署
-
-暂无
-
-### 使用到的框架
-
-- [xxxxxxx](https://getbootstrap.com)
-- [xxxxxxx](https://jquery.com)
-- [xxxxxxx](https://laravel.com)
-
-### 贡献者
-
-请阅读**CONTRIBUTING.md** 查阅为该项目做出贡献的开发者。
-
-#### 如何参与开源项目
-
-贡献使开源社区成为一个学习、激励和创造的绝佳场所。你所作的任何贡献都是**非常感谢**的。
-
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-
-
-### 版本控制
-
-该项目使用Git进行版本管理。您可以在repository参看当前可用版本。
-
-### 作者
-
-xxx@xxxx
-
-知乎:xxxx  &ensp; qq:xxxxxx    
-
- *您也可以在贡献者名单中参看所有参与该项目的开发者。*
-
-### 版权说明
-
-该项目签署了MIT 授权许可，详情请参阅 [LICENSE.txt](https://github.com/shaojintian/Best_README_template/blob/master/LICENSE.txt)
-
-### 鸣谢
-
-
-- [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-- [Img Shields](https://shields.io)
-- [Choose an Open Source License](https://choosealicense.com)
-- [GitHub Pages](https://pages.github.com)
-- [Animate.css](https://daneden.github.io/animate.css)
-- [xxxxxxxxxxxxxx](https://connoratherton.com/loaders)
-
-<!-- links -->
-[your-project-path]:shaojintian/Best_README_template
-[contributors-shield]: https://img.shields.io/github/contributors/shaojintian/Best_README_template.svg?style=flat-square
-[contributors-url]: https://github.com/shaojintian/Best_README_template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/shaojintian/Best_README_template.svg?style=flat-square
-[forks-url]: https://github.com/shaojintian/Best_README_template/network/members
-[stars-shield]: https://img.shields.io/github/stars/shaojintian/Best_README_template.svg?style=flat-square
-[stars-url]: https://github.com/shaojintian/Best_README_template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/shaojintian/Best_README_template.svg?style=flat-square
-[issues-url]: https://img.shields.io/github/issues/shaojintian/Best_README_template.svg
-[license-shield]: https://img.shields.io/github/license/shaojintian/Best_README_template.svg?style=flat-square
-[license-url]: https://github.com/shaojintian/Best_README_template/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/shaojintian
